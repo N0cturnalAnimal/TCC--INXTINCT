@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour
     {
         float attention = 0;
 
-        if (Input.GetAxis("Horizontal") == 0)
+        if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0 && theRB.linearVelocity.magnitude != 0)
             return;
 
         switch (state)
