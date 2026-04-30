@@ -96,12 +96,17 @@ public class PlayerController : MonoBehaviour
         nextToHold.transform.position = holdPoint.position;
         nextToHold.transform.SetParent(holdPoint, true);
         UITips.Instance.ShowTip();
+        Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
+        rig.angularVelocity = 0f;
+        rig.bodyType = RigidbodyType2D.Kinematic;
     }
 
     void ExitCarryMode()
     {
         state = PlayerEnum.Normal;
         nextToHold.transform.SetParent(null, true);
+        Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
+        rig.bodyType = RigidbodyType2D.Dynamic;
     }
 
     void OnTriggerEnter2D(Collider2D other)
