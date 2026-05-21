@@ -158,10 +158,10 @@ public class PlayerController : MonoBehaviour
 
     void AttentionCaller()
     {
-        float attention = 0;
+        float attention = 0f;
 
-        if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0 && theRB.linearVelocity.magnitude != 0)
-            return;
+        //if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0 && theRB.linearVelocity.magnitude != 0)
+            //return;
 
         switch (state)
         {
