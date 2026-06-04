@@ -7,11 +7,15 @@ public class Tractor : MonoBehaviour
 
     public float movementLimit;
     public float maxSpeed = 10f;
+    private Rigidbody2D rb;
 
     void Start()
     {
         originalPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
     }
+
+
 
     void FixedUpdate()
     {
@@ -28,7 +32,6 @@ public class Tractor : MonoBehaviour
             transform.position = new Vector3(movementLimit, transform.position.y, transform.position.z);
         }
     }
-    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
