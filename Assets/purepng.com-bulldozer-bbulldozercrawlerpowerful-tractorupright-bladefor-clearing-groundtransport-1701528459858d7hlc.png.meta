@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 423265b61471f0a428d9510bca6c7a10
+guid: 6f74de228341ad94ba3a365e691857d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2561439245546994603
-    second: Rat-DarkGrey-Walk_0
-  - first:
-      213: 5119309615407402104
-    second: Rat-DarkGrey-Walk_1
-  - first:
-      213: -1836367661550802614
-    second: Rat-DarkGrey-Walk_2
-  - first:
-      213: -6203004838347996702
-    second: Rat-DarkGrey-Walk_3
+      213: 4376608267274579322
+    second: purepng.com-bulldozer-bbulldozercrawlerpowerful-tractorupright-bladefor-clearing-groundtransport-1701528459858d7hlc_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rat-DarkGrey-Walk_0
+      name: purepng.com-bulldozer-bbulldozercrawlerpowerful-tractorupright-bladefor-clearing-groundtransport-1701528459858d7hlc_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 33
-        height: 14
+        x: 25
+        y: 258
+        width: 975
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: babb2983c6f0c8320800000000000000
-      internalID: 2561439245546994603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rat-DarkGrey-Walk_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 34
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87c8991d8f07b0740800000000000000
-      internalID: 5119309615407402104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rat-DarkGrey-Walk_2
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 0
-        width: 34
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a49ef306759e386e0800000000000000
-      internalID: -1836367661550802614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rat-DarkGrey-Walk_3
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 0
-        width: 33
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e10d36e6ff7ae9a0800000000000000
-      internalID: -6203004838347996702
+      spriteID: a7d60f3e706dcbc30800000000000000
+      internalID: 4376608267274579322
       vertices: []
       indices: 
       edges: []
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rat-DarkGrey-Walk_0: 2561439245546994603
-      Rat-DarkGrey-Walk_1: 5119309615407402104
-      Rat-DarkGrey-Walk_2: -1836367661550802614
-      Rat-DarkGrey-Walk_3: -6203004838347996702
+      purepng.com-bulldozer-bbulldozercrawlerpowerful-tractorupright-bladefor-clearing-groundtransport-1701528459858d7hlc_0: 4376608267274579322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

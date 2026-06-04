@@ -23,13 +23,13 @@ public class Opossum : MonoBehaviour
         if (Vector3.Distance(transform.position, player.position) > distanceToReturn && transform.position != OriginalPos)
         {
             transform.position = Vector3.MoveTowards(transform.position, OriginalPos,speed * Time.deltaTime);
-            sprite.flipX = true;
+            sprite.flipX = false;
         }
 
         if (Vector3.Distance(transform.position, player.position) < distanceToMove)
         {
             transform.position = Vector3.MoveTowards(transform.position, NextPos,speed * Time.deltaTime * 2);
-            sprite.flipX = false;
+            sprite.flipX = true;
         }
 
         if (transform.position == NextPos)
