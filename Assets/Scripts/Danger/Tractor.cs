@@ -6,10 +6,19 @@ public class Tractor : MonoBehaviour
     private Vector3 originalPosition;
 
     public float movementLimit;
+    public float maxSpeed = 10f;
 
     void Start()
     {
         originalPosition = transform.position;
+    }
+
+    void FixedUpdate()
+    {
+        if (rb.linearVelocity.magnitude > maxSpeed)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
+        }
     }
 
     void Update()
@@ -19,6 +28,7 @@ public class Tractor : MonoBehaviour
             transform.position = new Vector3(movementLimit, transform.position.y, transform.position.z);
         }
     }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
