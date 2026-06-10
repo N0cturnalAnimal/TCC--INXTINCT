@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/UI - Tela Inicial.unity
+    guid: 123df390f72daa740a35111dbf75c6d1
+  - enabled: 1
+    path: Assets/Scenes/Fase1e2.unity
+    guid: 3d7bd4091254bdb49a5083a1579dc8f1
+  - enabled: 1
+    path: Assets/Scenes/UI - Controles.unity
+    guid: 06d1690108134b9448e06597e660f715
+  - enabled: 1
+    path: "Assets/Scenes/UI - Configura\xE7\xF5es.unity"
+    guid: 3cb3e3261893c89489fda9a1f4a07a4c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
