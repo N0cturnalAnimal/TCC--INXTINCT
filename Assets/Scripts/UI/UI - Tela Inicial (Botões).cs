@@ -5,7 +5,7 @@ public class Menu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Fase1e2");
+        SceneManager.LoadScene("Level 2");
     }
 
     public void Controls()
