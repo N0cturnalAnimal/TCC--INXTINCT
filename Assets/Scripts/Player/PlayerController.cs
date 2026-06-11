@@ -8,11 +8,12 @@ public class PlayerController : MonoBehaviour
     public float[] speeds;
     private Rigidbody2D theRB;
     public float jumpForce;
-    public float rayLength = 0.3f;
+    public float rayLength = 1.5f;
     public LayerMask groundLayer;
     public bool canClimb;
     public bool canCarry;
     public bool canJump;
+    public Transform groundCheck;
 
     public Transform holdPoint;
     private GameObject nextToHold;
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        canJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
+        canJump = Physics2D.Raycast(groundCheck.position, Vector2.down, rayLength, groundLayer);
 
         if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
             return;
