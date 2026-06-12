@@ -9,13 +9,13 @@ public class Tractor : MonoBehaviour
     public float maxSpeed = 10f;
     private Rigidbody2D rb;
 
+    public AudioSource deathAudio;
+
     void Start()
     {
         originalPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
     }
-
-
 
     void FixedUpdate()
     {
@@ -39,6 +39,7 @@ public class Tractor : MonoBehaviour
             other.transform.position = respawnPoint.position;
             transform.position = originalPosition;
             gameObject.SetActive(false);
+            deathAudio.Play();
         }
     }
 }

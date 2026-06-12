@@ -19,6 +19,14 @@ public class PlayerController : MonoBehaviour
     private GameObject nextToHold;
     public Action<float> AttentionBringing;
 
+    public AudioSource meowSource;
+    public AudioSource footstepAudio;
+
+    public void Meow()
+    {
+        meowSource.Play();
+    }
+
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
@@ -28,13 +36,19 @@ public class PlayerController : MonoBehaviour
     {
         ManageState();
 
+        if (Input.GetKeyDown(KeyCode.M))
+            Meow();
+
         if (Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Climbing)
         {
             theRB.linearVelocity = new Vector2(speeds[(int)state] * Input.GetAxis("Horizontal"), theRB.linearVelocity.y);
+            footstepAudio.Play();
 
             if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 || Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
                 transform.localScale = new Vector3 (transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
         }
+        else
+            footstepAudio.Stop();
 
         if (state == PlayerEnum.Climbing)
             theRB.linearVelocity = new Vector2(speeds[(int)state] * Input.GetAxis("Horizontal"), speeds[(int)state] * Input.GetAxis("Vertical"));
