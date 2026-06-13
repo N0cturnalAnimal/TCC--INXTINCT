@@ -3356,7 +3356,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 4.48, z: -11}
+  m_LocalPosition: {x: 2.03, y: 4.45, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5928,7 +5928,7 @@ Transform:
   m_GameObject: {fileID: 1004653371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 3.48, z: -1}
+  m_LocalPosition: {x: 2.03, y: 3.45, z: -1}
   m_LocalScale: {x: 0.26799968, y: 0.26799968, z: 0.26799968}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7978,7 +7978,6 @@ GameObject:
   - component: {fileID: 1261721364}
   - component: {fileID: 1261721367}
   - component: {fileID: 1261721366}
-  - component: {fileID: 1261721365}
   m_Layer: 5
   m_Name: fadeImage
   m_TagString: Untagged
@@ -8005,18 +8004,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000061035156, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &1261721365
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261721363}
-  m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!114 &1261721366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8030,7 +8017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -259565,7 +259552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d59897bfda353a4c86631663c4740e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
-  fadeImage: {fileID: 0}
+  fadeImage: {fileID: 1261721366}
+  fadeDuration: 0.5
 --- !u!4 &1556666680
 Transform:
   m_ObjectHideFlags: 0
@@ -263556,7 +263544,7 @@ Transform:
   m_GameObject: {fileID: 2139802268}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 4.48, z: -11}
+  m_LocalPosition: {x: 2.03, y: 4.45, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

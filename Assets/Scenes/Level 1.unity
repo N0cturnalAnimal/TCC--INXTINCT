@@ -163,6 +163,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1862895512}
   - {fileID: 1001534539}
   - {fileID: 1375792361}
   - {fileID: 1198074922}
@@ -3596,7 +3597,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.1, y: -5.5805, z: -11}
+  m_LocalPosition: {x: -11.2, y: -5.5805, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -259469,7 +259470,7 @@ Transform:
   m_GameObject: {fileID: 1366938739}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.1, y: -6.5805, z: -1}
+  m_LocalPosition: {x: -11.2, y: -6.5805, z: -1}
   m_LocalScale: {x: 0.26799968, y: 0.26799968, z: 0.26799968}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -262732,7 +262733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d59897bfda353a4c86631663c4740e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
-  fadeImage: {fileID: 469618758}
+  fadeImage: {fileID: 2081204588}
 --- !u!4 &1862895512
 Transform:
   m_ObjectHideFlags: 0
@@ -262742,11 +262743,11 @@ Transform:
   m_GameObject: {fileID: 1862895510}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.61292, y: 9.15014, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 612441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1865529493
 GameObject:
@@ -264439,7 +264440,6 @@ GameObject:
   - component: {fileID: 2081204585}
   - component: {fileID: 2081204589}
   - component: {fileID: 2081204588}
-  - component: {fileID: 2081204587}
   m_Layer: 5
   m_Name: fadeImage
   m_TagString: Untagged
@@ -264466,18 +264466,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &2081204587
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081204584}
-  m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!114 &2081204588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264491,7 +264479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -265166,7 +265154,7 @@ Transform:
   m_GameObject: {fileID: 2139802268}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.1, y: -5.5805, z: -11}
+  m_LocalPosition: {x: -11.2, y: -5.5805, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -265732,7 +265720,6 @@ SceneRoots:
   - {fileID: 458495711}
   - {fileID: 853250490}
   - {fileID: 612441}
-  - {fileID: 1862895512}
   - {fileID: 1366938741}
   - {fileID: 1042918105616143376}
   - {fileID: 9193643665419604146}
