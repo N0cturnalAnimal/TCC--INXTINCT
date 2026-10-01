@@ -43,6 +43,9 @@ TagManager:
   - name: BACKGROUND
     uniqueID: 2524146453
     locked: 0
+  - name: ASSETS
+    uniqueID: 3649796973
+    locked: 0
   - name: WORLD
     uniqueID: 1037117585
     locked: 0
