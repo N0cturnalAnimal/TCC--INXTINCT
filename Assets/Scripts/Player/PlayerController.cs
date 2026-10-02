@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public AudioSource meowSource;
     public AudioSource footstepAudio;
 
+    private Animator animator;
+
     public void Meow()
     {
         meowSource.Play();
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()

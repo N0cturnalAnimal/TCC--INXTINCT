@@ -260693,6 +260693,7 @@ GameObject:
   - component: {fileID: 1366938744}
   - component: {fileID: 1366938745}
   - component: {fileID: 1366938746}
+  - component: {fileID: 1366938747}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -260910,8 +260911,8 @@ BoxCollider2D:
   m_Offset: {x: -0.42626047, y: -1.510958}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.606028, y: 0.53792626}
-    oldSize: {x: 12.661893, y: 9.910001}
+    pivot: {x: 0.62641394, y: 0.3802395}
+    oldSize: {x: 12.8, y: 12.8}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -260931,6 +260932,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda604a886aaeb34b996fab48bf851c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
+--- !u!95 &1366938747
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366938739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b2495e193d823f4eb4400bb4248da91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1370464100
 GameObject:
   m_ObjectHideFlags: 0
