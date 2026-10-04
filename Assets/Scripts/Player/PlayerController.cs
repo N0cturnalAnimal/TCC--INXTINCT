@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float[] speeds;
     private Rigidbody2D theRB;
     public float jumpForce;
-    public float rayLength = 1.5f;
+    public float rayLength = 0.3f;
     public LayerMask groundLayer;
     public bool canClimb;
     public bool canCarry;
@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
         if (state == PlayerEnum.Climbing)
         {
             state = PlayerEnum.Normal;
-            theRB.gravityScale = 1;
+            theRB.gravityScale = 2;
         }
     }
 
