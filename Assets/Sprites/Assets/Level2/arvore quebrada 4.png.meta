@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 6372a688d3304934e9aff857912d1e43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3279204169274240405
+    second: arvore quebrada 4_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arvore quebrada 4_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 802
+        height: 1001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 94, y: -452.5}
+        - {x: 115, y: -239.5}
+        - {x: 63, y: -12.5}
+        - {x: 88, y: 17.5}
+        - {x: 136, y: 33.5}
+        - {x: 210, y: 79.5}
+        - {x: 252, y: 134.5}
+        - {x: 277, y: 190.5}
+        - {x: 292, y: 204.5}
+        - {x: 332, y: 249.5}
+        - {x: 363, y: 287.5}
+        - {x: 401, y: 321.5}
+        - {x: 362, y: 302.5}
+        - {x: 344, y: 284.5}
+        - {x: 312, y: 241.5}
+        - {x: 262, y: 195.5}
+        - {x: 241, y: 147.5}
+        - {x: 201, y: 90.5}
+        - {x: 146, y: 67.5}
+        - {x: 79, y: 61.5}
+        - {x: 52, y: 45.5}
+        - {x: 43, y: 108.5}
+        - {x: 65, y: 174.5}
+        - {x: 162, y: 281.5}
+        - {x: 260, y: 401.5}
+        - {x: 311, y: 440.5}
+        - {x: 258, y: 418.5}
+        - {x: 228, y: 388.5}
+        - {x: 228, y: 417.5}
+        - {x: 170, y: 484.5}
+        - {x: 127, y: 494.5}
+        - {x: 180, y: 455.5}
+        - {x: 221, y: 391.5}
+        - {x: 143, y: 280.5}
+        - {x: 46, y: 184.5}
+        - {x: 46, y: 268.5}
+        - {x: 101, y: 333.5}
+        - {x: 134, y: 391.5}
+        - {x: 131, y: 434.5}
+        - {x: 139, y: 467.5}
+        - {x: 122, y: 454.5}
+        - {x: 118, y: 397.5}
+        - {x: 93, y: 349.5}
+        - {x: 23, y: 264.5}
+        - {x: -19, y: 380.5}
+        - {x: -50, y: 426.5}
+        - {x: -60, y: 416.5}
+        - {x: -28, y: 347.5}
+        - {x: -1, y: 228.5}
+        - {x: -121, y: 362.5}
+        - {x: -143, y: 417.5}
+        - {x: -144, y: 483.5}
+        - {x: -162, y: 448.5}
+        - {x: -144, y: 376.5}
+        - {x: -188, y: 414.5}
+        - {x: -232, y: 411.5}
+        - {x: -185, y: 394.5}
+        - {x: -128, y: 329.5}
+        - {x: -8, y: 197.5}
+        - {x: -4, y: 152.5}
+        - {x: -83, y: 213.5}
+        - {x: -228, y: 356.5}
+        - {x: -158, y: 268.5}
+        - {x: -10, y: 135.5}
+        - {x: -3, y: 65.5}
+        - {x: -69, y: 87.5}
+        - {x: -156, y: 150.5}
+        - {x: -228, y: 264.5}
+        - {x: -249, y: 329.5}
+        - {x: -276, y: 353.5}
+        - {x: -227, y: 234.5}
+        - {x: -302, y: 288.5}
+        - {x: -355, y: 318.5}
+        - {x: -401, y: 318.5}
+        - {x: -334, y: 294.5}
+        - {x: -276, y: 258.5}
+        - {x: -221, y: 203.5}
+        - {x: -130, y: 105.5}
+        - {x: 8, y: 21.5}
+        - {x: 63, y: -216.5}
+        - {x: 37, y: -446.5}
+        - {x: 9, y: -498.5}
+        - {x: 126, y: -496.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d229761d2128d20800000000000000
+      internalID: 3279204169274240405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3a6aa671d91ac914e8bcc1efd14288f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arvore quebrada 4_0: 3279204169274240405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

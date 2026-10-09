@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8571363971241444279}
   - component: {fileID: 4958406749866881900}
   - component: {fileID: 8899033900660681933}
+  - component: {fileID: 4783601132638904079}
   m_Layer: 0
   m_Name: galhopequeno1_0
   m_TagString: Untagged
@@ -123,7 +124,7 @@ PolygonCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -149,3 +150,22 @@ PolygonCollider2D:
       - {x: -0.98999995, y: -0.12}
       - {x: -0.79999995, y: -0.04}
   m_UseDelaunayMesh: 1
+--- !u!251 &4783601132638904079
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014215597270643525}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 90
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
