@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
         if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
             return;
-
+        
         theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, jumpForce);
     }
 

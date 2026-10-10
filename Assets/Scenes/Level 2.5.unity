@@ -5845,10 +5845,10 @@ MonoBehaviour:
   - 7
   - 2
   jumpForce: 10
-  rayLength: 0.3
+  rayLength: 0.5
   groundLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   canClimb: 0
   canCarry: 0
   canJump: 0
@@ -257157,7 +257157,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -261906,7 +261906,7 @@ Transform:
   m_GameObject: {fileID: 1956476193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 4.45, y: 1.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
