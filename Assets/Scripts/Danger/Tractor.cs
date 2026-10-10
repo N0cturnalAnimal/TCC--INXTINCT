@@ -32,6 +32,7 @@ public class Tractor : MonoBehaviour
             transform.position = new Vector3(movementLimit, transform.position.y, transform.position.z);
         }
     }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

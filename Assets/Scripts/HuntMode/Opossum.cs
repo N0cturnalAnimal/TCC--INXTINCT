@@ -10,6 +10,8 @@ public class Opossum : MonoBehaviour
     public float distanceToReturn;
     private SpriteRenderer sprite;
     public float speed = 2;
+    public bool moveOnce;
+    private bool moving;
 
     void Start()
     {
@@ -20,14 +22,16 @@ public class Opossum : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, player.position) > distanceToReturn && transform.position != OriginalPos)
+        if (Vector3.Distance(transform.position, player.position) > distanceToReturn && transform.position != OriginalPos && !moveOnce)
         {
             transform.position = Vector3.MoveTowards(transform.position, OriginalPos,speed * Time.deltaTime);
             sprite.flipX = false;
         }
 
-        if (Vector3.Distance(transform.position, player.position) < distanceToMove)
+        if (Vector3.Distance(transform.position, player.position) < distanceToMove ||  moving)
         {
+            if (moveOnce)
+                moving = true;
             transform.position = Vector3.MoveTowards(transform.position, NextPos,speed * Time.deltaTime * 2);
             sprite.flipX = true;
         }
