@@ -8,11 +8,6 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Level 1");
     }
 
-    public void Controls()
-    {
-        SceneManager.LoadScene("UI - Controles");
-    }
-
     public void Settings()
     {
         SceneManager.LoadScene("UI - Configurações");
