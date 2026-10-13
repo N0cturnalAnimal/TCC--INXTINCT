@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 1128b6c40c87e20458a49c30dbcc3cce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8511735856689032933
+    second: sacolixo1_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.54005516, y: 0.43443748}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sacolixo1_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55
+        width: 327
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eea7ef1aa2cf1670800000000000000
+      internalID: 8511735856689032933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 153, y: -125}
+      - {x: 177, y: -82}
+      - {x: 163, y: -32}
+      - {x: 130, y: 22}
+      - {x: 26, y: 91}
+      - {x: -59, y: 97}
+      - {x: -125, y: 83}
+      - {x: -146, y: -8}
+      - {x: -124, y: 10}
+      - {x: -103, y: 51}
+      - {x: -123, y: -69}
+      - {x: -115, y: -110}
+      - {x: -87, y: -137}
+      - {x: -33, y: -154}
+      - {x: 37, y: -156}
+      - {x: 111, y: -149}
+    customData: 
+    physicsShape:
+    - - {x: 162, y: -29}
+      - {x: 138, y: 9}
+      - {x: 78, y: 68}
+      - {x: 4, y: 94}
+      - {x: -69, y: 98}
+      - {x: -93, y: 90}
+      - {x: -119, y: 90}
+      - {x: -138, y: 38}
+      - {x: -145, y: -14}
+      - {x: -120, y: 13}
+      - {x: -103, y: 54}
+      - {x: -126, y: -73}
+      - {x: -107, y: -122}
+      - {x: -47, y: -152}
+      - {x: 31, y: -157}
+      - {x: 105, y: -149}
+      - {x: 160, y: -117}
+      - {x: 177, y: -84}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sacolixo1_0: 8511735856689032933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
