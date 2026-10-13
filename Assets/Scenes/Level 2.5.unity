@@ -5005,6 +5005,7 @@ GameObject:
   - component: {fileID: 1004653374}
   - component: {fileID: 1004653373}
   - component: {fileID: 1004653379}
+  - component: {fileID: 1004653380}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -5046,17 +5047,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.42626047, y: -1.510958}
+  m_Offset: {x: -0.42626047, y: -0.76893806}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.606028, y: 0.53792626}
-    oldSize: {x: 12.661893, y: 9.910001}
+    pivot: {x: 0.59144235, y: 0.39475495}
+    oldSize: {x: 12.8, y: 12.8}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.6040125, y: 7.1677403}
+  m_Size: {x: 7.6040125, y: 5.6837006}
   m_EdgeRadius: 0
 --- !u!114 &1004653374
 MonoBehaviour:
@@ -5202,7 +5203,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7324163634776791271, guid: 6a3627377fbb7c040bdfdb78d65dafd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3bfa59dbccb6e6c4a989a7d645a5a606, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5245,6 +5246,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   life: 15
   deathAudio: {fileID: 312465244}
+--- !u!95 &1004653380
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004653371}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b2495e193d823f4eb4400bb4248da91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1015354073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259999,7 +260022,7 @@ Transform:
   m_GameObject: {fileID: 1956476193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.45, y: 1.69, z: 0}
+  m_LocalPosition: {x: 4.78, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
