@@ -39,6 +39,8 @@ public class PlayerController : MonoBehaviour
     {
         ManageState();
 
+        animator.SetBool("IsRunning", state == PlayerEnum.Running);
+
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
 
