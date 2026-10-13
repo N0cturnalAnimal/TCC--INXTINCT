@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI - Tela Inicial.unity
     guid: 123df390f72daa740a35111dbf75c6d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI - Controles.unity
     guid: 06d1690108134b9448e06597e660f715
   - enabled: 1
