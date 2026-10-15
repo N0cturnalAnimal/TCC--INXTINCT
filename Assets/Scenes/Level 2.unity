@@ -3914,6 +3914,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446730792495215307, guid: ed14cefd999298e48b4bb813d902514e, type: 3}
   m_PrefabInstance: {fileID: 255033063}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &255041130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255041131}
+  - component: {fileID: 255041132}
+  m_Layer: 0
+  m_Name: TreeRotation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &255041131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255041130}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 293.9, y: -2.39, z: 0}
+  m_LocalScale: {x: 1.139588, y: 1.139588, z: 1.139588}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1645814854}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &255041132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255041130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 5
+  distanceToReturn: 35
+  speed: 3
 --- !u!1 &255926508
 GameObject:
   m_ObjectHideFlags: 0
@@ -9187,7 +9237,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 12.17
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9212,7 +9262,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -0.030000687, z: -11}
+  m_LocalPosition: {x: 3.9286804, y: 2.726003, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9456,6 +9506,8 @@ GameObject:
   m_Component:
   - component: {fileID: 594245793}
   - component: {fileID: 594245794}
+  - component: {fileID: 594245796}
+  - component: {fileID: 594245795}
   m_Layer: 0
   m_Name: Tree_Fall_Test
   m_TagString: Untagged
@@ -9527,6 +9579,47 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.0790405, y: 23.314909}
   m_EdgeRadius: 0
+--- !u!114 &594245795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594245792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d345e2312928e049aa6a612c78cc2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TractorFallingTree
+  tractor: {fileID: 1220624792}
+  fallTorque: 8
+--- !u!50 &594245796
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594245792}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
 --- !u!1 &597364304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7469802292946400807, guid: 33c65e685f31633459cedbff495cb145, type: 3}
@@ -14628,7 +14721,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.42626047, y: -0.8067181}
+  m_Offset: {x: -0.4797511, y: -0.7817044}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.59144235, y: 0.39475495}
@@ -14638,7 +14731,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.6040125, y: 5.7592607}
+  m_Size: {x: 6.7695494, y: 5.3240986}
   m_EdgeRadius: 0
 --- !u!114 &1004653374
 MonoBehaviour:
@@ -14803,7 +14896,7 @@ Transform:
   m_GameObject: {fileID: 1004653371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 3.45, z: -1}
+  m_LocalPosition: {x: 2.5, y: 3.46, z: -1}
   m_LocalScale: {x: 0.3491738, y: 0.3491738, z: 0.3491738}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15664,7 +15757,7 @@ Transform:
   - {fileID: 41146177}
   - {fileID: 1580962225}
   - {fileID: 1841325200}
-  - {fileID: 1645814854}
+  - {fileID: 255041131}
   - {fileID: 483310275}
   - {fileID: 1265496223}
   - {fileID: 384935854}
@@ -17708,6 +17801,7 @@ GameObject:
   - component: {fileID: 1271671838}
   - component: {fileID: 1271671837}
   - component: {fileID: 1271671839}
+  - component: {fileID: 1271671840}
   m_Layer: 0
   m_Name: arvorepequena_0 (19)
   m_TagString: Climbable
@@ -18740,6 +18834,18 @@ MonoBehaviour:
   destroyType: 1
   collidersToDisable: []
   objectToDisable: {fileID: 1271671835}
+--- !u!114 &1271671840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271671835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35eeec0798db1c74f9bc64cd5cad792a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TreeCollisionTest
 --- !u!1001 &1279827657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -272387,31 +272493,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1125150734}
+    m_TransformParent: {fileID: 255041131}
     m_Modifications:
     - target: {fileID: 2949826284098191757, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_Name
       value: arvoregrande_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5244290675165582057, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.427313
+      value: 1.2524813
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.427313
+      value: 1.2524813
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.427313
+      value: 1.2524813
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 294
+      value: 0.087676026
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.612931
+      value: 6.145141
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -279604,7 +279714,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 9
+    OrthographicSize: 12.17
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -279631,7 +279741,7 @@ Transform:
   m_GameObject: {fileID: 2139802268}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -0.030000687, z: -11}
+  m_LocalPosition: {x: 2.5, y: -2.3024006, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

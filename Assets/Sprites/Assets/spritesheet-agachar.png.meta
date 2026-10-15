@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: f47865d04a064444eac67cda45cb52ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2733318166413656482
+    second: spritesheet-agachar_0
+  - first:
+      213: 2802620181130322758
+    second: spritesheet-agachar_1
+  - first:
+      213: 2198769039832073164
+    second: spritesheet-agachar_2
+  - first:
+      213: 5028741203332955978
+    second: spritesheet-agachar_3
+  - first:
+      213: 8922037696074982319
+    second: spritesheet-agachar_4
+  - first:
+      213: 2335900897519968880
+    second: spritesheet-agachar_5
+  - first:
+      213: -8564346105821422206
+    second: spritesheet-agachar_6
+  - first:
+      213: 1332229755513517481
+    second: spritesheet-agachar_7
+  - first:
+      213: 8547563496191467837
+    second: spritesheet-agachar_8
+  - first:
+      213: 3058502332483761170
+    second: spritesheet-agachar_9
+  - first:
+      213: 1604113961116040989
+    second: spritesheet-agachar_10
+  - first:
+      213: 3242280629024079681
+    second: spritesheet-agachar_11
+  - first:
+      213: -2232735909645190730
+    second: spritesheet-agachar_12
+  - first:
+      213: 7239398630787316983
+    second: spritesheet-agachar_13
+  - first:
+      213: -3670044611333052615
+    second: spritesheet-agachar_14
+  - first:
+      213: -8008010178995232738
+    second: spritesheet-agachar_15
+  - first:
+      213: -4684633801976743828
+    second: spritesheet-agachar_16
+  - first:
+      213: -3177796263162440614
+    second: spritesheet-agachar_17
+  - first:
+      213: 5591792176128323078
+    second: spritesheet-agachar_18
+  - first:
+      213: 6283030529982629178
+    second: spritesheet-agachar_19
+  - first:
+      213: 1316142917538750747
+    second: spritesheet-agachar_20
+  - first:
+      213: -2770064843704153656
+    second: spritesheet-agachar_21
+  - first:
+      213: 4033133429818942330
+    second: spritesheet-agachar_22
+  - first:
+      213: -5047927438366955743
+    second: spritesheet-agachar_23
+  - first:
+      213: -5379686218307664261
+    second: spritesheet-agachar_24
+  - first:
+      213: 5585703563813207999
+    second: spritesheet-agachar_25
+  - first:
+      213: 8947727921207703774
+    second: spritesheet-agachar_26
+  - first:
+      213: 7983953035600342265
+    second: spritesheet-agachar_27
+  - first:
+      213: 6044814448250973988
+    second: spritesheet-agachar_28
+  - first:
+      213: -5892392821572244516
+    second: spritesheet-agachar_29
+  - first:
+      213: -4911717701125830665
+    second: spritesheet-agachar_30
+  - first:
+      213: 7964127694806378386
+    second: spritesheet-agachar_31
+  - first:
+      213: 5209909612008928457
+    second: spritesheet-agachar_32
+  - first:
+      213: -598116059185651775
+    second: spritesheet-agachar_33
+  - first:
+      213: 3858315765214642234
+    second: spritesheet-agachar_34
+  - first:
+      213: -3863051105849978046
+    second: spritesheet-agachar_35
+  - first:
+      213: 4103828973062236176
+    second: spritesheet-agachar_36
+  - first:
+      213: 2624668200436752021
+    second: spritesheet-agachar_37
+  - first:
+      213: 7124957469060068998
+    second: spritesheet-agachar_38
+  - first:
+      213: -5621456274232754879
+    second: spritesheet-agachar_39
+  - first:
+      213: 1594250871907126071
+    second: spritesheet-agachar_40
+  - first:
+      213: 7244652709332798132
+    second: spritesheet-agachar_41
+  - first:
+      213: -4455413631285548648
+    second: spritesheet-agachar_42
+  - first:
+      213: 2104074825755374143
+    second: spritesheet-agachar_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-agachar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.61976045, y: 0.27378577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1453ff362bee520800000000000000
+      internalID: 2733318166413656482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6432d90b438e4e620800000000000000
+      internalID: 2802620181130322758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3415acac8938e10800000000000000
+      internalID: 2198769039832073164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.27378577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff7042b7da9c540800000000000000
+      internalID: 5028741203332955978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3a13b730271db70800000000000000
+      internalID: 8922037696074982319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_5
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072a13b7d79ca6020800000000000000
+      internalID: 2335900897519968880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_6
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d9305b794552980800000000000000
+      internalID: -8564346105821422206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1289
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5b69877e70d7210800000000000000
+      internalID: 1332229755513517481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31a69d76bb0f9670800000000000000
+      internalID: 8547563496191467837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-agachar_9
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6197605, y: 0.2737858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214f560baabf17a20800000000000000
+      internalID: 3058502332483761170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0894456605c80fc4fa7eaea2e71c303b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1280.0,"y":1280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spritesheet-agachar_0: 2733318166413656482
+      spritesheet-agachar_1: 2802620181130322758
+      spritesheet-agachar_2: 2198769039832073164
+      spritesheet-agachar_3: 5028741203332955978
+      spritesheet-agachar_4: 8922037696074982319
+      spritesheet-agachar_5: 2335900897519968880
+      spritesheet-agachar_6: -8564346105821422206
+      spritesheet-agachar_7: 1332229755513517481
+      spritesheet-agachar_8: 8547563496191467837
+      spritesheet-agachar_9: 3058502332483761170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
