@@ -263,6 +263,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
   m_PrefabInstance: {fileID: 41146176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &43300054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43300055}
+  - component: {fileID: 43300056}
+  m_Layer: 0
+  m_Name: TreeRotation (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43300055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43300054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 366.47183, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838305, y: 1.3838305, z: 1.3838305}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 279668852}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43300056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43300054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1 &61416698
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,6 +3995,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1645814854}
+  - {fileID: 1214201819}
   m_Father: {fileID: 1125150734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &255041132
@@ -3961,8 +4012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingTree
   tractor: {fileID: 1860336888}
   NextRot: {x: 0, y: 0, z: -82.798}
-  distanceToMove: 5
-  distanceToReturn: 35
+  distanceToMove: 15
+  distanceToReturn: 50
   speed: 3
 --- !u!1 &255926508
 GameObject:
@@ -3991,11 +4042,11 @@ Transform:
   m_GameObject: {fileID: 255926508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 326.1, y: 4.8069534, z: 0}
-  m_LocalScale: {x: 1.3838308, y: 1.3838308, z: 1.3838308}
+  m_LocalPosition: {x: -0.43003294, y: 5.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125150734}
+  m_Father: {fileID: 1461536499}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &255926510
 PolygonCollider2D:
@@ -5019,11 +5070,11 @@ Transform:
   m_GameObject: {fileID: 279668851}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 365.9, y: 6.1486, z: 0}
-  m_LocalScale: {x: 1.633889, y: 1.633889, z: 1.633889}
+  m_LocalPosition: {x: -0.4132286, y: 6.159517, z: 0}
+  m_LocalScale: {x: 1.1807002, y: 1.1807002, z: 1.1807002}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125150734}
+  m_Father: {fileID: 43300055}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &279668853
 PolygonCollider2D:
@@ -7965,6 +8016,56 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &448420478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448420479}
+  - component: {fileID: 448420480}
+  m_Layer: 0
+  m_Name: TreeRotation (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448420479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448420478}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 446.44632, y: -2.3751278, z: 0}
+  m_LocalScale: {x: 1.3838307, y: 1.3838307, z: 1.3838307}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1804458857}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &448420480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448420478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1 &473988623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8002,7 +8103,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1125150734}
+    m_TransformParent: {fileID: 924846167}
     m_Modifications:
     - target: {fileID: 2949826284098191757, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_Name
@@ -8010,23 +8111,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.427313
+      value: 1.0314218
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.427313
+      value: 1.0314218
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.427313
+      value: 1.0314218
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 394.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.612931
+      value: 5.0497932
       objectReference: {fileID: 0}
     - target: {fileID: 5354530973921075962, guid: e8689aba87d0b86428d0c900269c2fee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8173,11 +8274,11 @@ Transform:
   m_GameObject: {fileID: 512602709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 354.8, y: 4.8069534, z: 0}
-  m_LocalScale: {x: 1.3838308, y: 1.3838308, z: 1.3838308}
+  m_LocalPosition: {x: -0.3699827, y: 5.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125150734}
+  m_Father: {fileID: 1245013841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &512602711
 PolygonCollider2D:
@@ -10103,6 +10204,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8571363971241444279, guid: 3eb973e76388e01469fae5e6c13602f6, type: 3}
   m_PrefabInstance: {fileID: 800955662}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &805526156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805526157}
+  - component: {fileID: 805526158}
+  m_Layer: 0
+  m_Name: TreeRotation (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805526157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805526156}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 419.11044, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838307, y: 1.3838307, z: 1.3838307}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1843223982}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805526158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805526156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1001 &821528515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13161,6 +13312,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &924846166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924846167}
+  - component: {fileID: 924846168}
+  m_Layer: 0
+  m_Name: TreeRotation (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &924846167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924846166}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 394.09998, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838305, y: 1.3838305, z: 1.3838305}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 483310275}
+  - {fileID: 1336591699}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &924846168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924846166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1 &934954908
 GameObject:
   m_ObjectHideFlags: 0
@@ -15748,17 +15950,17 @@ Transform:
   - {fileID: 934954909}
   - {fileID: 183785308}
   - {fileID: 840395989}
-  - {fileID: 255926509}
-  - {fileID: 1722850899}
-  - {fileID: 512602710}
-  - {fileID: 279668852}
-  - {fileID: 1843223982}
+  - {fileID: 1461536499}
+  - {fileID: 2111878393}
+  - {fileID: 1245013841}
+  - {fileID: 43300055}
+  - {fileID: 805526157}
   - {fileID: 1553833941}
   - {fileID: 41146177}
   - {fileID: 1580962225}
   - {fileID: 1841325200}
   - {fileID: 255041131}
-  - {fileID: 483310275}
+  - {fileID: 924846167}
   - {fileID: 1265496223}
   - {fileID: 384935854}
   - {fileID: 738737003}
@@ -15781,7 +15983,6 @@ Transform:
   - {fileID: 952513035}
   - {fileID: 1013149030}
   - {fileID: 1615671825}
-  - {fileID: 1214201819}
   - {fileID: 1784250552}
   - {fileID: 1296050780}
   - {fileID: 1551276931}
@@ -15792,8 +15993,7 @@ Transform:
   - {fileID: 944710983}
   - {fileID: 228386739}
   - {fileID: 823745395}
-  - {fileID: 1336591699}
-  - {fileID: 1804458857}
+  - {fileID: 448420479}
   - {fileID: 282772577}
   - {fileID: 1113229296}
   - {fileID: 2106648428}
@@ -17106,7 +17306,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1125150734}
+    m_TransformParent: {fileID: 255041131}
     m_Modifications:
     - target: {fileID: 2958751706112225841, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_Name
@@ -17114,23 +17314,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.509745
+      value: 1.3248166
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.509745
+      value: 1.3248166
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.509745
+      value: 1.3248166
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 298.6424
+      value: 4.161478
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0122292
+      value: 4.740511
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17538,6 +17738,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 77217221}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1245013840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245013841}
+  - component: {fileID: 1245013842}
+  m_Layer: 0
+  m_Name: TreeRotation (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245013841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245013840}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 355.31198, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838307, y: 1.3838307, z: 1.3838307}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 512602710}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245013842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245013840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1001 &1247310094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268728,7 +268978,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1125150734}
+    m_TransformParent: {fileID: 924846167}
     m_Modifications:
     - target: {fileID: 2958751706112225841, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_Name
@@ -268736,23 +268986,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7938542
+      value: 1.2962962
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7938542
+      value: 1.2962962
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.7938542
+      value: 1.2962962
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 388.71826
+      value: -3.8889976
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.007526
+      value: 4.6123085
       objectReference: {fileID: 0}
     - target: {fileID: 6878550345656894963, guid: 226bfa81e6faefd43bf17b9e6f2908fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -269297,6 +269547,56 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!1 &1461536498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461536499}
+  - component: {fileID: 1461536500}
+  m_Layer: 0
+  m_Name: TreeRotation (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461536499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461536498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 326.69507, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838307, y: 1.3838307, z: 1.3838307}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 255926509}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461536500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461536498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1 &1489164264
 GameObject:
   m_ObjectHideFlags: 0
@@ -275290,11 +275590,11 @@ Transform:
   m_GameObject: {fileID: 1722850898}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 337.8, y: 4.8069534, z: 0}
-  m_LocalScale: {x: 1.3838308, y: 1.3838308, z: 1.3838308}
+  m_LocalPosition: {x: -0.3399686, y: 5.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125150734}
+  m_Father: {fileID: 2111878393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1722850900
 PolygonCollider2D:
@@ -276881,27 +277181,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1125150734}
+    m_TransformParent: {fileID: 448420479}
     m_Modifications:
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3838308
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3838308
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3838308
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 445.72675
+      value: -0.52000904
       objectReference: {fileID: 0}
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.788925
+      value: 5.176972
       objectReference: {fileID: 0}
     - target: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -277187,11 +277487,11 @@ Transform:
   m_GameObject: {fileID: 1843223981}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 418.63998, y: 4.8069534, z: 0}
-  m_LocalScale: {x: 1.3838308, y: 1.3838308, z: 1.3838308}
+  m_LocalPosition: {x: -0.33999065, y: 5.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125150734}
+  m_Father: {fileID: 805526157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1843223983
 PolygonCollider2D:
@@ -279548,6 +279848,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2604868359878470506, guid: ff939076cab1c55409880ad68cca9ff2, type: 3}
   m_PrefabInstance: {fileID: 2106648427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2111878392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2111878393}
+  - component: {fileID: 2111878394}
+  m_Layer: 0
+  m_Name: TreeRotation (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111878393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111878392}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 338.27045, y: -2.3751283, z: 0}
+  m_LocalScale: {x: 1.3838307, y: 1.3838307, z: 1.3838307}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1722850899}
+  m_Father: {fileID: 1125150734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111878394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111878392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d957b6804f56a4bb2e353447a87f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallingTree
+  tractor: {fileID: 1860336888}
+  NextRot: {x: 0, y: 0, z: -82.798}
+  distanceToMove: 10
+  distanceToReturn: 50
+  speed: 3
 --- !u!1 &2115552036
 GameObject:
   m_ObjectHideFlags: 0
