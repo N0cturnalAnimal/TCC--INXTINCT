@@ -4,6 +4,7 @@ using System.Collections;
 public class AguaMorte : MonoBehaviour
 {
     private bool isRespawning = false;
+    [SerializeField] private Tractor tractor;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -40,8 +41,19 @@ public class AguaMorte : MonoBehaviour
         // Pequena pausa dramática
         yield return new WaitForSeconds(0.3f);
 
-        // Respawn
+        // Respawn do jogador no checkpoint
         playerRespawn.Respawn();
+
+        // Reinicia a perseguição do trator
+        if (tractor != null)
+        {
+            tractor.ResetForPlayerRespawn();
+        }
+        else
+        {
+            Debug.LogWarning(
+            "Tractor não foi atribuído no Inspector!", this);
+        }
 
         // Pequena pausa antes de voltar
         yield return new WaitForSeconds(0.1f);

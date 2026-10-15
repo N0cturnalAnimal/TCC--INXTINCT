@@ -166,7 +166,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -204,7 +204,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -237,7 +237,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.61976045, y: 0.27378577}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,7 +259,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,7 +281,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,7 +303,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.27378577}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,7 +325,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: spritesheet-agachar_5
       rect:
         serializedVersion: 2
-        x: 1289
+        x: 1280
         y: 1280
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,7 +369,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,11 +387,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3840
-        y: 1289
+        y: 1280
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,7 +413,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,7 +435,7 @@ TextureImporter:
         width: 1280
         height: 1280
       alignment: 9
-      pivot: {x: 0.6197605, y: 0.2737858}
+      pivot: {x: 0.62641394, y: 0.38023955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,7 +462,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1280.0,"y":1280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1280.0,"y":1280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       spritesheet-agachar_0: 2733318166413656482
       spritesheet-agachar_1: 2802620181130322758

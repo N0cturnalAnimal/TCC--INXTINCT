@@ -39,7 +39,9 @@ public class PlayerController : MonoBehaviour
     {
         ManageState();
 
-        animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f);
+        animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
+
+animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();

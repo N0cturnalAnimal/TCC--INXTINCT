@@ -43,4 +43,22 @@ public class Tractor : MonoBehaviour
             deathAudio.Play();
         }
     }
+
+    
+public void ResetForPlayerRespawn()
+{
+    // Restaura a posição inicial do trator
+    transform.position = originalPosition;
+
+    // Para o movimento físico
+    if (rb != null)
+    {
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
+
+    // Desativa o trator até o trigger ativá-lo novamente
+    gameObject.SetActive(false);
+}
+
 }
