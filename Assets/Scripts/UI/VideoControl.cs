@@ -19,13 +19,10 @@ public class VideoControl : MonoBehaviour
     public AudioSource cutsceneAudio;
 
     private AudioClip lastOverride;
-    public SceneController sceneControl;
-
-    [Header("OverrideDestination")]
-    public bool overRide;
-    public string sceneDestination;
+    public Menu sceneControl;
 
     public Action VideoEnd;
+    public GameObject canvas;
 
     void Update()
     {
@@ -43,6 +40,7 @@ public class VideoControl : MonoBehaviour
 
     public void PlayVideo(int videoNum = 0)
     {
+        canvas.SetActive(false);
         playingVideo = true;
         cutscenesPlayer.clip = cutscenesVideos[videoNum];
         videoStart = Time.time;
@@ -64,7 +62,7 @@ public class VideoControl : MonoBehaviour
                 cutsceneAudio.Play();
         }
 
-        sceneControl.NextLevel();
+        sceneControl.StartGame();
     }
 
     public IEnumerator playAudioDelay(int videoNum)
