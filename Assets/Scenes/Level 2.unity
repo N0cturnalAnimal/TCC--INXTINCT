@@ -6820,6 +6820,37 @@ RectTransform:
   m_AnchoredPosition: {x: -138, y: -26.5}
   m_SizeDelta: {x: -680, y: -43}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &367483768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367483769}
+  m_Layer: 3
+  m_Name: InclineCheckFront
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367483769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367483768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -3.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004653378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384583002
 GameObject:
   m_ObjectHideFlags: 0
@@ -13005,7 +13036,7 @@ Transform:
   m_GameObject: {fileID: 473988623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -5.2, z: 0}
+  m_LocalPosition: {x: -0.07, y: -3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20432,6 +20463,9 @@ MonoBehaviour:
   canCarry: 0
   canJump: 0
   groundCheck: {fileID: 473988624}
+  inclineCheckB: {fileID: 1732514508}
+  inclineCheckF: {fileID: 367483769}
+  inclineAngle: {x: 0, y: 0, z: 30}
   holdPoint: {fileID: 1956476194}
   meowSource: {fileID: 856477664}
   footstepAudio: {fileID: 1348991546}
@@ -20573,6 +20607,8 @@ Transform:
   m_Children:
   - {fileID: 1956476194}
   - {fileID: 473988624}
+  - {fileID: 1732514508}
+  - {fileID: 367483769}
   - {fileID: 856477663}
   - {fileID: 1348991545}
   m_Father: {fileID: 0}
@@ -281694,6 +281730,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2675141579868703579, guid: fa5eba7eeff82294a963ddbea6808c66, type: 3}
   m_PrefabInstance: {fileID: 1726994490}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1732514507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732514508}
+  m_Layer: 3
+  m_Name: InclineCheckBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732514508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732514507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: -3.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004653378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1738797021
 PrefabInstance:
   m_ObjectHideFlags: 0
