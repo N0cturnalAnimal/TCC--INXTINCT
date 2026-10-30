@@ -8,6 +8,7 @@ public class Tractor : MonoBehaviour
     public float movementLimit;
     public float maxSpeed = 10f;
     private Rigidbody2D rb;
+    public float chaseSpeed = 10f;
 
     public AudioSource deathAudio;
 
@@ -18,12 +19,17 @@ public class Tractor : MonoBehaviour
     }
 
     void FixedUpdate()
+{
+    if (rb == null)
+        return;
+
+    rb.linearVelocity = new Vector2(-chaseSpeed, rb.linearVelocity.y);
+
+    if (rb.linearVelocity.magnitude > maxSpeed)
     {
-        if (rb.linearVelocity.magnitude > maxSpeed)
-        {
-            rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
-        }
+        rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
     }
+}
 
     void Update()
     {

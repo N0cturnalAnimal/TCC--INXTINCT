@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     public bool canCarry;
     public bool canJump;
     public Transform groundCheck;
+    public Transform inclineCheckB;
+    public Transform inclineCheckF;
+    public Vector3 inclineAngle;
 
     public Transform holdPoint;
     private GameObject nextToHold;
@@ -38,10 +41,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         ManageState();
+        CheckIncline();
 
         animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
 
-animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
+        animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
@@ -80,6 +84,20 @@ animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
             return;
         
         theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, jumpForce);
+    }
+
+    void CheckIncline()
+    {
+        if (state == PlayerEnum.Climbing)
+            return;
+
+        if (Physics2D.Raycast(inclineCheckB.position, Vector2.down, rayLength, groundLayer) != Physics2D.Raycast(inclineCheckF.position, Vector2.down, rayLength, groundLayer))
+        {
+            if (transform.localEulerAngles != inclineAngle)
+                transform.localEulerAngles = inclineAngle;
+            else
+                transform.localEulerAngles = new Vector3(0,0,0);
+        }
     }
 
     void EnterClimbMode()

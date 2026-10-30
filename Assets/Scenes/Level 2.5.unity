@@ -2633,7 +2633,7 @@ Transform:
   m_GameObject: {fileID: 473988623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -5.2, z: 0}
+  m_LocalPosition: {x: 0, y: -3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3500,6 +3500,37 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+--- !u!1 &690622275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690622276}
+  m_Layer: 3
+  m_Name: InclineCheckFront
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690622276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690622275}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -3.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004653378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &703694481
 GameObject:
   m_ObjectHideFlags: 0
@@ -4649,25 +4680,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: pedrarampa2_0
       objectReference: {fileID: 0}
+    - target: {fileID: 3428638356228186761, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.379555
+      value: 4.0436435
       objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.379555
+      value: 4.0436435
       objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.379555
+      value: 4.0436435
       objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 853.52466
+      value: 854.7
       objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.145098
+      value: 9.2318
       objectReference: {fileID: 0}
     - target: {fileID: 6525714887756013680, guid: f7a66a81eaeaf954b8e670a047d9aa7e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5185,6 +5220,9 @@ MonoBehaviour:
   canCarry: 0
   canJump: 0
   groundCheck: {fileID: 473988624}
+  inclineCheckB: {fileID: 1208566861}
+  inclineCheckF: {fileID: 690622276}
+  inclineAngle: {x: 0, y: 0, z: 30}
   holdPoint: {fileID: 1956476194}
   meowSource: {fileID: 856477664}
   footstepAudio: {fileID: 1348991546}
@@ -5325,6 +5363,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1956476194}
+  - {fileID: 1208566861}
+  - {fileID: 690622276}
   - {fileID: 473988624}
   - {fileID: 856477663}
   - {fileID: 1348991545}
@@ -6149,6 +6189,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 864899507453328054, guid: a59006110cfdb5b46b9c75033232b906, type: 3}
   m_PrefabInstance: {fileID: 1165372777}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1208566860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208566861}
+  m_Layer: 3
+  m_Name: InclineCheckBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208566861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208566860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: -3.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004653378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1225366802
 PrefabInstance:
   m_ObjectHideFlags: 0
