@@ -282524,6 +282524,7 @@ Transform:
   m_PrefabInstance: {fileID: 1726994490}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1730403515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282603,6 +282604,8 @@ Transform:
   m_PrefabInstance: {fileID: 1730403515}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> 4179a7cd90c7884be23ed554b7f9a3b215b90bde
 --- !u!1 &1732514507
 GameObject:
   m_ObjectHideFlags: 0
@@ -282634,6 +282637,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1004653378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> 4179a7cd90c7884be23ed554b7f9a3b215b90bde
+=======
 >>>>>>> 4179a7cd90c7884be23ed554b7f9a3b215b90bde
 --- !u!1001 &1738797021
 PrefabInstance:
