@@ -1,4 +1,4 @@
-{
+﻿{
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -67,9 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-<<<<<<< HEAD
     "dotnet.defaultSolution": "TCC---PROJETO-DEMO.slnx"
-=======
->>>>>>> 4179a7cd90c7884be23ed554b7f9a3b215b90bde
-    "dotnet.defaultSolution": "TCC---PROJETO-ALFA.slnx"
 }
