@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2993bb90cee3bb444999cf421d5470d1
+guid: d7eefce09d58fdf40aeef21ec99db163
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9132979438570826592
-    second: Parallax-Fase1-4_0
+      213: 607523530943734580
+    second: Paralax_1-9_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Parallax-Fase1-4_0
+      name: Paralax_1-9_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 4096
-        height: 1714
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a41a07d693214180800000000000000
-      internalID: -9132979438570826592
+      spriteID: 433a79ebe6b5e6800800000000000000
+      internalID: 607523530943734580
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Parallax-Fase1-4_0: -9132979438570826592
+      Paralax_1-9_0: 607523530943734580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
