@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public bool canClimb;
     public bool canCarry;
     public bool canJump;
+    private bool carrying;
     public Transform groundCheck;
     public Transform inclineCheckB;
     public Transform inclineCheckF;
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         theRB = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        carrying = false;
     }
 
     void Update()
@@ -132,6 +134,7 @@ public class PlayerController : MonoBehaviour
         if (!canCarry)
             return;
 
+        carrying = true;
         state = PlayerEnum.Carrying;
         nextToHold.transform.position = holdPoint.position;
         nextToHold.transform.SetParent(holdPoint, true);
@@ -139,6 +142,11 @@ public class PlayerController : MonoBehaviour
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.angularVelocity = 0f;
         rig.bodyType = RigidbodyType2D.Kinematic;
+        foreach (Transform child in nextToHold.transform)
+        {
+            Collider2D col = child.GetComponent<Collider2D>();
+            col.enabled = false;
+        }
     }
 
     void ExitCarryMode()
@@ -147,6 +155,12 @@ public class PlayerController : MonoBehaviour
         nextToHold.transform.SetParent(null, true);
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.bodyType = RigidbodyType2D.Dynamic;
+        carrying = false;
+        foreach (Transform child in nextToHold.transform)
+        {
+            Collider2D col = child.GetComponent<Collider2D>();
+            col.enabled = true;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -156,7 +170,7 @@ public class PlayerController : MonoBehaviour
             canClimb = true;
         }
 
-        if (other.CompareTag("Carriable"))
+        if (other.CompareTag("Carriable") && carrying == false)
         {
             nextToHold = other.gameObject;
             canCarry = true;
