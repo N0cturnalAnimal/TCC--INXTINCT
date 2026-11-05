@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8e3c058989525a64eb5529c9cec399fe
+guid: 2a0752b862422e24b84f73b31085e60f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5776421600631150107
-    second: Untitled_Artwork-3_0
+      213: 3389793161559044908
+    second: Paralax_1-12_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork-3_0
+      name: Paralax_1-12_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 167
-        width: 3800
-        height: 2233
+        y: 0
+        width: 4096
+        height: 1714
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e9ac75b82706dfa0800000000000000
-      internalID: -5776421600631150107
+      spriteID: c2376c8abe6fa0f20800000000000000
+      internalID: 3389793161559044908
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork-3_0: -5776421600631150107
+      Paralax_1-12_0: 3389793161559044908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

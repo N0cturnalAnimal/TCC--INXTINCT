@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: bf858a7fff19b8443af0de504d159137
+guid: 2ab0bf8f5eaf1af49a2a0697254d7da4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4656013747300671609
-    second: Paralax_1-5_0
+      213: 331609067387635009
+    second: Paralax_1-5 1_0
   - first:
-      213: 2252263327659515196
-    second: Paralax_1-5_1
+      213: -2005641645323234200
+    second: Paralax_1-5 1_1
   - first:
-      213: -3693238666070523638
-    second: Paralax_1-5_2
+      213: 8434400758763225125
+    second: Paralax_1-5 1_2
   - first:
-      213: 7442733980899459819
-    second: Paralax_1-5_3
+      213: 1410080796949678144
+    second: Paralax_1-5 1_3
   - first:
-      213: 1513000954529073932
-    second: Paralax_1-5_4
+      213: -7032001580481649283
+    second: Paralax_1-5 1_4
   - first:
-      213: 2532580906252473797
-    second: Paralax_1-5_5
+      213: 7289729276507835081
+    second: Paralax_1-5 1_5
   - first:
-      213: 7071086402220547562
-    second: Paralax_1-5_6
+      213: -9004653248862037608
+    second: Paralax_1-5 1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paralax_1-5_0
+      name: Paralax_1-5 1_0
       rect:
         serializedVersion: 2
         x: 22
@@ -133,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9702135a5db7d9040800000000000000
-      internalID: 4656013747300671609
+      spriteID: 14540f990bc1a9400800000000000000
+      internalID: 331609067387635009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_1
+      name: Paralax_1-5 1_1
       rect:
         serializedVersion: 2
         x: 63
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3dd8c14095a14f10800000000000000
-      internalID: 2252263327659515196
+      spriteID: 86457c7cc878a24e0800000000000000
+      internalID: -2005641645323234200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_2
+      name: Paralax_1-5 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -177,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a010126300bfebcc0800000000000000
-      internalID: -3693238666070523638
+      spriteID: 5200e5f7dc20d0570800000000000000
+      internalID: 8434400758763225125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_3
+      name: Paralax_1-5 1_3
       rect:
         serializedVersion: 2
         x: 762
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be2cd315f17e94760800000000000000
-      internalID: 7442733980899459819
+      spriteID: 04809ce830d919310800000000000000
+      internalID: 1410080796949678144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_4
+      name: Paralax_1-5 1_4
       rect:
         serializedVersion: 2
         x: 2644
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0b48871a524ff410800000000000000
-      internalID: 1513000954529073932
+      spriteID: d75e767d1df496e90800000000000000
+      internalID: -7032001580481649283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_5
+      name: Paralax_1-5 1_5
       rect:
         serializedVersion: 2
         x: 3345
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c59d128ae8852320800000000000000
-      internalID: 2532580906252473797
+      spriteID: 9cac30387225a2560800000000000000
+      internalID: 7289729276507835081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paralax_1-5_6
+      name: Paralax_1-5 1_6
       rect:
         serializedVersion: 2
         x: 3459
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aed537c5e9b812260800000000000000
-      internalID: 7071086402220547562
+      spriteID: 899d200349b090380800000000000000
+      internalID: -9004653248862037608
       vertices: []
       indices: 
       edges: []
@@ -285,13 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Paralax_1-5_0: 4656013747300671609
-      Paralax_1-5_1: 2252263327659515196
-      Paralax_1-5_2: -3693238666070523638
-      Paralax_1-5_3: 7442733980899459819
-      Paralax_1-5_4: 1513000954529073932
-      Paralax_1-5_5: 2532580906252473797
-      Paralax_1-5_6: 7071086402220547562
+      Paralax_1-5 1_0: 331609067387635009
+      Paralax_1-5 1_1: -2005641645323234200
+      Paralax_1-5 1_2: 8434400758763225125
+      Paralax_1-5 1_3: 1410080796949678144
+      Paralax_1-5 1_4: -7032001580481649283
+      Paralax_1-5 1_5: 7289729276507835081
+      Paralax_1-5 1_6: -9004653248862037608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

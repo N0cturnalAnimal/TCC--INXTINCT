@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: f82555dd05973534298406dddd20acae
+guid: fca99a5dc9156c0479352dcfaff69ea0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3410439384014351281
-    second: Untitled_Artwork-4_0
-  - first:
-      213: 7439738896468046806
-    second: Untitled_Artwork-4_1
+      213: 1346968933511244866
+    second: Paralax_1-10 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork-4_0
+      name: Paralax_1-10 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 201
-        width: 2703
-        height: 2199
+        y: 0
+        width: 4096
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bb6d2cec80545f20800000000000000
-      internalID: 3410439384014351281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork-4_1
-      rect:
-        serializedVersion: 2
-        x: 1178
-        y: 200
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d372a1eb134f3760800000000000000
-      internalID: 7439738896468046806
+      spriteID: 24cac65cb1561b210800000000000000
+      internalID: 1346968933511244866
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork-4_0: 3410439384014351281
-      Untitled_Artwork-4_1: 7439738896468046806
+      Paralax_1-10 1_0: 1346968933511244866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
