@@ -17,7 +17,12 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public Transform inclineCheckB;
     public Transform inclineCheckF;
-    public Vector3 inclineAngle;
+    
+    [Header("Inclinação")]
+    public float inclineSmooth = 8f;
+    public float maxInclineAngle = 35f;
+    public float inclineRayLength = 0.8f;
+    private Transform visual;
 
     public Transform holdPoint;
     private GameObject nextToHold;
@@ -28,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
+    public StaminaWheel staminaWheel;
+
     public void Meow()
     {
         meowSource.Play();
@@ -36,13 +43,17 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
+        visual = animator.transform;
         carrying = false;
     }
 
     void Update()
     {
         ManageState();
+        staminaWheel.UpdateStamina(
+        state == PlayerEnum.Running && Input.GetAxis("Horizontal") != 0f
+        );
         CheckIncline();
 
         animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
@@ -88,19 +99,86 @@ public class PlayerController : MonoBehaviour
         theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, jumpForce);
     }
 
-    void CheckIncline()
-    {
-        if (state == PlayerEnum.Climbing)
-            return;
+    
 
-        if (Physics2D.Raycast(inclineCheckB.position, Vector2.down, rayLength, groundLayer) != Physics2D.Raycast(inclineCheckF.position, Vector2.down, rayLength, groundLayer))
+void CheckIncline()
+{
+    if (state == PlayerEnum.Climbing)
+        return;
+
+    RaycastHit2D hitB = Physics2D.Raycast(
+    inclineCheckB.position,
+    Vector2.down,
+    inclineRayLength,
+    groundLayer
+);
+
+RaycastHit2D hitF = Physics2D.Raycast(
+    inclineCheckF.position,
+    Vector2.down,
+    inclineRayLength,
+    groundLayer
+);
+Debug.Log(
+    $"Sensor B: {hitB.collider != null} | " +
+    $"Sensor F: {hitF.collider != null}"
+);
+
+    float targetAngle = 0f;
+
+    if (hitB.collider != null && hitF.collider != null)
+    {
+        float deltaX = hitF.point.x - hitB.point.x;
+        float deltaY = hitF.point.y - hitB.point.y;
+
+        if (Mathf.Abs(deltaX) > 0.01f)
         {
-            if (transform.localEulerAngles != inclineAngle)
-                transform.localEulerAngles = inclineAngle;
-            else
-                transform.localEulerAngles = new Vector3(0,0,0);
+            targetAngle = Mathf.Atan2(deltaY, deltaX) * Mathf.Rad2Deg;
+
+            // Corrige a direção quando a onça está virada para a esquerda.
+            if (transform.localScale.x < 0)
+                targetAngle *= -1;
+
+            targetAngle = Mathf.Clamp(
+                targetAngle,
+                -maxInclineAngle,
+                maxInclineAngle
+            );
         }
     }
+
+    float currentAngle = transform.eulerAngles.z;
+
+    float newAngle = Mathf.LerpAngle(
+        currentAngle,
+        targetAngle,
+        inclineSmooth * Time.deltaTime
+    );
+
+    transform.rotation = Quaternion.Euler(0f, 0f, newAngle);
+}
+
+    void OnDrawGizmos()
+    {
+        if (inclineCheckB != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(
+            inclineCheckB.position,
+            inclineCheckB.position + Vector3.down * rayLength
+            );
+        }
+
+        if (inclineCheckF != null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(
+                inclineCheckF.position,
+                inclineCheckF.position + Vector3.down * rayLength
+            );
+        }
+    }
+
 
     void EnterClimbMode()
     {
@@ -190,25 +268,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void ManageState()
+    
+void ManageState()
+{
+    if (state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
+        return;
+
+    bool wantsToRun = Input.GetKey(KeyCode.LeftShift);
+
+    if (wantsToRun && staminaWheel.CanRun)
     {
-        if (state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
-            return;
-
-        if (Input.GetKey(KeyCode.LeftShift) && state == PlayerEnum.Normal || Input.GetKey(KeyCode.LeftShift) && state == PlayerEnum.Running)
-        {
-            state = PlayerEnum.Running;
-            return;
-        }
-
-        if (Input.GetKey(KeyCode.LeftControl) && state != PlayerEnum.Climbing)
-        {
-            state = PlayerEnum.Crouching;
-            return;
-        }
-
-        state = PlayerEnum.Normal;
+        state = PlayerEnum.Running;
+        return;
     }
+
+    if (Input.GetKey(KeyCode.LeftControl))
+    {
+        state = PlayerEnum.Crouching;
+        return;
+    }
+
+    state = PlayerEnum.Normal;
+}
+
 
     void AttentionCaller()
     {
