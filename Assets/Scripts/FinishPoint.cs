@@ -3,8 +3,15 @@ using UnityEngine;
 
 public class FinishPoint : MonoBehaviour
 {
+    public bool startEnabled = false;
+
     private bool canFinish = false;
     private bool finished = false;
+
+    private void Start()
+    {
+        canFinish = startEnabled;
+    }
 
     public void EnableFinish()
     {
