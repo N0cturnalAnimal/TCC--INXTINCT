@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float[] speeds;
     private Rigidbody2D theRB;
     public float jumpForce;
-    public float rayLength = 0.3f;
+    public float rayLength = 1.0f;
     public LayerMask groundLayer;
     public bool canClimb;
     public bool canCarry;
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     [Header("Inclinação")]
     public float inclineSmooth = 8f;
     public float maxInclineAngle = 35f;
-    public float inclineRayLength = 0.8f;
+    public float inclineRayLength = 1.2f;
     private Transform visual;
 
     public Transform holdPoint;
@@ -43,8 +43,25 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
-        visual = animator.transform;
+
+        visual = transform.Find("Visual");
+
+        if (visual == null)
+        {
+            Debug.LogError("Visual não encontrado dentro do Player!");
+            return;
+        }
+
+        animator = visual.GetComponent<Animator>();
+
+        if (animator == null)
+        {
+            Debug.LogError("Animator não encontrado dentro de Visual!");
+            return;
+        }
+
+        Debug.Log("Animator encontrado em: " + animator.gameObject.name);
+
         carrying = false;
     }
 
@@ -90,55 +107,70 @@ public class PlayerController : MonoBehaviour
     }
 
     void Jump()
-    {
-        canJump = Physics2D.Raycast(groundCheck.position, Vector2.down, rayLength, groundLayer);
+{
+    canJump = Physics2D.Raycast(
+        groundCheck.position,
+        Vector2.down,
+        rayLength,
+        groundLayer
+    );
 
-        if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
-            return;
-        
-        theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, jumpForce);
-    }
+    Debug.Log("Pode pular: " + canJump);
 
-    
+    if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
+        return;
 
-void CheckIncline()
+    theRB.linearVelocity = new Vector2(
+        theRB.linearVelocity.x,
+        jumpForce
+    );
+}
+
+    void CheckIncline()
 {
     if (state == PlayerEnum.Climbing)
         return;
 
+    // Detecta a superfície abaixo dos dois sensores.
     RaycastHit2D hitB = Physics2D.Raycast(
-    inclineCheckB.position,
-    Vector2.down,
-    inclineRayLength,
-    groundLayer
-);
+        inclineCheckB.position,
+        Vector2.down,
+        inclineRayLength,
+        groundLayer
+    );
 
-RaycastHit2D hitF = Physics2D.Raycast(
-    inclineCheckF.position,
-    Vector2.down,
-    inclineRayLength,
-    groundLayer
-);
-Debug.Log(
-    $"Sensor B: {hitB.collider != null} | " +
-    $"Sensor F: {hitF.collider != null}"
-);
+    RaycastHit2D hitF = Physics2D.Raycast(
+        inclineCheckF.position,
+        Vector2.down,
+        inclineRayLength,
+        groundLayer
+    );
 
     float targetAngle = 0f;
 
+    // Só calcula a inclinação quando os dois sensores encontram o chão.
     if (hitB.collider != null && hitF.collider != null)
     {
-        float deltaX = hitF.point.x - hitB.point.x;
-        float deltaY = hitF.point.y - hitB.point.y;
+        // Organiza os pontos pela posição horizontal no mundo.
+        Vector2 leftPoint = hitB.point.x < hitF.point.x
+            ? hitB.point
+            : hitF.point;
+
+        Vector2 rightPoint = hitB.point.x < hitF.point.x
+            ? hitF.point
+            : hitB.point;
+
+        float deltaX = rightPoint.x - leftPoint.x;
+        float deltaY = rightPoint.y - leftPoint.y;
 
         if (Mathf.Abs(deltaX) > 0.01f)
         {
-            targetAngle = Mathf.Atan2(deltaY, deltaX) * Mathf.Rad2Deg;
+            targetAngle = Mathf.Atan2(
+                deltaY,
+                deltaX
+            ) * Mathf.Rad2Deg;
 
-            // Corrige a direção quando a onça está virada para a esquerda.
-            if (transform.localScale.x < 0)
-                targetAngle *= -1;
-
+            // Limita a inclinação máxima.
             targetAngle = Mathf.Clamp(
                 targetAngle,
                 -maxInclineAngle,
@@ -147,37 +179,55 @@ Debug.Log(
         }
     }
 
-    float currentAngle = transform.eulerAngles.z;
+    // Aplica a inclinação somente no Visual.
+    float direction = Mathf.Sign(transform.lossyScale.x);
 
-    float newAngle = Mathf.LerpAngle(
+    float localTargetAngle = targetAngle * direction;
+
+    float currentAngle = visual.localEulerAngles.z;
+
+    float newAngle = Mathf.MoveTowardsAngle(
         currentAngle,
-        targetAngle,
-        inclineSmooth * Time.deltaTime
+        localTargetAngle,
+        180f * Time.deltaTime
     );
 
-    transform.rotation = Quaternion.Euler(0f, 0f, newAngle);
+    visual.localRotation = Quaternion.Euler(
+        0f,
+        0f,
+        newAngle
+    );
 }
 
     void OnDrawGizmos()
+{
+    if (inclineCheckB != null)
     {
-        if (inclineCheckB != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawLine(
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(
             inclineCheckB.position,
-            inclineCheckB.position + Vector3.down * rayLength
-            );
-        }
-
-        if (inclineCheckF != null)
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawLine(
-                inclineCheckF.position,
-                inclineCheckF.position + Vector3.down * rayLength
-            );
-        }
+            inclineCheckB.position + Vector3.down * inclineRayLength
+        );
     }
+
+    if (inclineCheckF != null)
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(
+            inclineCheckF.position,
+            inclineCheckF.position + Vector3.down * inclineRayLength
+        );
+    }
+
+    if (groundCheck != null)
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(
+            groundCheck.position,
+            groundCheck.position + Vector3.down * rayLength
+        );
+    }
+}
 
 
     void EnterClimbMode()

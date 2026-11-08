@@ -7,6 +7,8 @@ public class PlayerRespawn : MonoBehaviour
     private Rigidbody2D rb;
     private bool isRespawning = false;
 
+    public static System.Action OnPlayerRespawned;
+
     public int life;
     private int oLife;
     public AudioSource deathAudio;
@@ -71,5 +73,7 @@ public class PlayerRespawn : MonoBehaviour
 
         life = oLife;
         isRespawning = false;
+
+        OnPlayerRespawned?.Invoke();
     }
 }
