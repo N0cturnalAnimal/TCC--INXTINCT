@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 932aca16051a7d74fb9d4f1745808ee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8766395849487391259
+    second: Galho-Pequeno1_0
+  - first:
+      213: -3035653617120792452
+    second: Galho-Pequeno1_1
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Galho-Pequeno1_0
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 558
+        width: 1370
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e568d6db61875680800000000000000
+      internalID: -8766395849487391259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Galho-Pequeno1_1
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1016
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70b26a6e113fd5d0800000000000000
+      internalID: -3035653617120792452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape:
+    - - {x: 416, y: 184}
+      - {x: 584, y: 170}
+      - {x: 661, y: 196}
+      - {x: 588, y: 194}
+      - {x: 393, y: 218}
+      - {x: 436, y: 254}
+      - {x: 559, y: 319}
+      - {x: 655, y: 432}
+      - {x: 559, y: 355}
+      - {x: 433, y: 291}
+      - {x: 360, y: 225}
+      - {x: 308, y: 196}
+      - {x: 222, y: 210}
+      - {x: 39, y: 246}
+      - {x: -131, y: 254}
+      - {x: -280, y: 251}
+      - {x: -385, y: 235}
+      - {x: -635, y: 126}
+      - {x: -691, y: 95}
+      - {x: -696, y: 65}
+      - {x: -619, y: 95}
+      - {x: -571, y: 80}
+      - {x: -515, y: 0}
+      - {x: -423, y: -48}
+      - {x: -377, y: -206}
+      - {x: -370, y: -209}
+      - {x: -390, y: -118}
+      - {x: -419, y: -20}
+      - {x: -514, y: 20}
+      - {x: -553, y: 108}
+      - {x: -451, y: 149}
+      - {x: -370, y: 116}
+      - {x: -225, y: -30}
+      - {x: -154, y: -55}
+      - {x: -238, y: 4}
+      - {x: -282, y: 57}
+      - {x: -361, y: 142}
+      - {x: -410, y: 171}
+      - {x: -376, y: 186}
+      - {x: -323, y: 184}
+      - {x: -201, y: 101}
+      - {x: -84, y: 57}
+      - {x: 76, y: 44}
+      - {x: 213, y: -15}
+      - {x: 350, y: -105}
+      - {x: 484, y: -238}
+      - {x: 524, y: -253}
+      - {x: 372, y: -78}
+      - {x: 127, y: 74}
+      - {x: -170, y: 112}
+      - {x: -283, y: 197}
+      - {x: -73, y: 201}
+      - {x: 132, y: 169}
+      - {x: 322, y: 155}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Galho-Pequeno1_0: -8766395849487391259
+      Galho-Pequeno1_1: -3035653617120792452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
