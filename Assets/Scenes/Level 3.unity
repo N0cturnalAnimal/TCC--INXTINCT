@@ -6213,7 +6213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e677d6be06d7d4cad075949f7d1033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnDogsOnTrigger
-  dogPrefab: {fileID: 1488937481}
+  dogPrefab: {fileID: 846347302}
   spawnPoints:
   - {fileID: 639152734}
   - {fileID: 1372339887}
