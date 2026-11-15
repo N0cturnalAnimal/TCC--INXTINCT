@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 45a308547fa68fb448fbfee099ca168f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2030194364951316549
+    second: Ato 1_ A Floresta_0
+  - first:
+      213: 2085460803601864341
+    second: Ato 1_ A Floresta_1
+  - first:
+      213: -3584304905272329997
+    second: Ato 1_ A Floresta_2
+  - first:
+      213: 3306421011255568521
+    second: Ato 1_ A Floresta_3
+  - first:
+      213: -1592240056743919702
+    second: Ato 1_ A Floresta_4
+  - first:
+      213: -8845336539965910519
+    second: Ato 1_ A Floresta_5
+  - first:
+      213: -5516563472124989734
+    second: Ato 1_ A Floresta_6
+  - first:
+      213: 6218459384102432131
+    second: Ato 1_ A Floresta_7
+  - first:
+      213: -8756841116146260849
+    second: Ato 1_ A Floresta_8
+  - first:
+      213: 3030757801436080405
+    second: Ato 1_ A Floresta_9
+  - first:
+      213: 6163641074039253346
+    second: Ato 1_ A Floresta_10
+  - first:
+      213: -754527324509818702
+    second: Ato 1_ A Floresta_11
+  - first:
+      213: -3871683372733566487
+    second: Ato 1_ A Floresta_12
+  - first:
+      213: 1149723342992753933
+    second: Ato 1_ A Floresta_13
+  - first:
+      213: 579944542064986368
+    second: Ato 1_ A Floresta_14
+  - first:
+      213: 8374632809546458911
+    second: Ato 1_ A Floresta_15
+  - first:
+      213: 1253967806989360905
+    second: Ato 1_ A Floresta_16
+  - first:
+      213: 6631912467111758778
+    second: Ato 1_ A Floresta_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_0
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 831
+        width: 106
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7b3144bfc43d3e0800000000000000
+      internalID: -2030194364951316549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_1
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 828
+        width: 99
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59690b73d8b01fc10800000000000000
+      internalID: 2085460803601864341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_2
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 828
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f87d8addadf14ec0800000000000000
+      internalID: -3584304905272329997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_3
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 831
+        width: 80
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988a6cd3464c2ed20800000000000000
+      internalID: 3306421011255568521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_4
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 915
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf71acba1a37e9e0800000000000000
+      internalID: -1592240056743919702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_5
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 828
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9029c80184d0f3580800000000000000
+      internalID: -8845336539965910519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 695
+        width: 3990
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade281700ca3173b0800000000000000
+      internalID: -5516563472124989734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_7
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 335
+        width: 186
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dae9fecd76c4650800000000000000
+      internalID: 6218459384102432131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_8
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 257
+        width: 209
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84219d8663797680800000000000000
+      internalID: -8756841116146260849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_9
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 257
+        width: 181
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51967daa92a6f0a20800000000000000
+      internalID: 3030757801436080405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_10
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 251
+        width: 172
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269ed1586e6a98550800000000000000
+      internalID: 6163641074039253346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_11
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 251
+        width: 183
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0344165616785f0800000000000000
+      internalID: -754527324509818702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_12
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 257
+        width: 174
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1fd6d4c74054ac0800000000000000
+      internalID: -3871683372733566487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_13
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 251
+        width: 193
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05ce09f943a4ff00800000000000000
+      internalID: 1149723342992753933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_14
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 251
+        width: 184
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009c5330d706c0800800000000000000
+      internalID: 579944542064986368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_15
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 251
+        width: 195
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1729596b2ca83470800000000000000
+      internalID: 8374632809546458911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_16
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 251
+        width: 206
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f506f931df66110800000000000000
+      internalID: 1253967806989360905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 1_ A Floresta_17
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 335
+        width: 186
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb4eaf5049490c50800000000000000
+      internalID: 6631912467111758778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ato 1_ A Floresta_0: -2030194364951316549
+      Ato 1_ A Floresta_1: 2085460803601864341
+      Ato 1_ A Floresta_10: 6163641074039253346
+      Ato 1_ A Floresta_11: -754527324509818702
+      Ato 1_ A Floresta_12: -3871683372733566487
+      Ato 1_ A Floresta_13: 1149723342992753933
+      Ato 1_ A Floresta_14: 579944542064986368
+      Ato 1_ A Floresta_15: 8374632809546458911
+      Ato 1_ A Floresta_16: 1253967806989360905
+      Ato 1_ A Floresta_17: 6631912467111758778
+      Ato 1_ A Floresta_2: -3584304905272329997
+      Ato 1_ A Floresta_3: 3306421011255568521
+      Ato 1_ A Floresta_4: -1592240056743919702
+      Ato 1_ A Floresta_5: -8845336539965910519
+      Ato 1_ A Floresta_6: -5516563472124989734
+      Ato 1_ A Floresta_7: 6218459384102432131
+      Ato 1_ A Floresta_8: -8756841116146260849
+      Ato 1_ A Floresta_9: 3030757801436080405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 439166184da89b84395839c8b73a75f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8449072684115067658
+    second: Ato 2_ Terra Arrasada_0
+  - first:
+      213: 849610413453955142
+    second: Ato 2_ Terra Arrasada_1
+  - first:
+      213: 4667247345520555568
+    second: Ato 2_ Terra Arrasada_2
+  - first:
+      213: 7309135946061195868
+    second: Ato 2_ Terra Arrasada_3
+  - first:
+      213: -1271622725478029653
+    second: Ato 2_ Terra Arrasada_4
+  - first:
+      213: -1818463351382175996
+    second: Ato 2_ Terra Arrasada_5
+  - first:
+      213: -1199771786094846959
+    second: Ato 2_ Terra Arrasada_6
+  - first:
+      213: 942673252649602110
+    second: Ato 2_ Terra Arrasada_7
+  - first:
+      213: -5733054611972327690
+    second: Ato 2_ Terra Arrasada_8
+  - first:
+      213: -4187084742732203897
+    second: Ato 2_ Terra Arrasada_9
+  - first:
+      213: 2610253377749369391
+    second: Ato 2_ Terra Arrasada_10
+  - first:
+      213: -3914597846093288635
+    second: Ato 2_ Terra Arrasada_11
+  - first:
+      213: 5967704849319499037
+    second: Ato 2_ Terra Arrasada_12
+  - first:
+      213: 797585049843806258
+    second: Ato 2_ Terra Arrasada_13
+  - first:
+      213: -4287529134449777990
+    second: Ato 2_ Terra Arrasada_14
+  - first:
+      213: -1986921580527356759
+    second: Ato 2_ Terra Arrasada_15
+  - first:
+      213: 9094145247687346992
+    second: Ato 2_ Terra Arrasada_16
+  - first:
+      213: 8029105492879036798
+    second: Ato 2_ Terra Arrasada_17
+  - first:
+      213: 8252775864310937458
+    second: Ato 2_ Terra Arrasada_18
+  - first:
+      213: 1902930694792396156
+    second: Ato 2_ Terra Arrasada_19
+  - first:
+      213: -4328720775673358109
+    second: Ato 2_ Terra Arrasada_20
+  - first:
+      213: -5049656852514131256
+    second: Ato 2_ Terra Arrasada_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_0
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 859
+        width: 106
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc7ddda82ddeba80800000000000000
+      internalID: -8449072684115067658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_1
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 856
+        width: 99
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640556b6b2c6acb00800000000000000
+      internalID: 849610413453955142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_2
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 856
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03633ac8bb465c040800000000000000
+      internalID: 4667247345520555568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_3
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 859
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a2400ea644f6560800000000000000
+      internalID: 7309135946061195868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_4
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 943
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba661975ed94a5ee0800000000000000
+      internalID: -1271622725478029653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_5
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 856
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f8ccf673583c6e0800000000000000
+      internalID: -1818463351382175996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 723
+        width: 3990
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd74ecaed895fe0800000000000000
+      internalID: -1199771786094846959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 363
+        width: 186
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c017b245c051d00800000000000000
+      internalID: 942673252649602110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_8
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 285
+        width: 221
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6797794391070b0800000000000000
+      internalID: -5733054611972327690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_9
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 279
+        width: 193
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7883df05c9c74e5c0800000000000000
+      internalID: -4187084742732203897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_10
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 285
+        width: 173
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22c38a0e9b793420800000000000000
+      internalID: 2610253377749369391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_11
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 285
+        width: 174
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ba919dffd8ca9c0800000000000000
+      internalID: -3914597846093288635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_12
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 279
+        width: 207
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15901431fb81d250800000000000000
+      internalID: 5967704849319499037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_13
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 285
+        width: 209
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2303a168067911b00800000000000000
+      internalID: 797585049843806258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_14
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 285
+        width: 174
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2abf0f7f2af74c0800000000000000
+      internalID: -4287529134449777990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_15
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 285
+        width: 173
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4fb1489590d64e0800000000000000
+      internalID: -1986921580527356759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_16
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 279
+        width: 206
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b06308be4e43e70800000000000000
+      internalID: 9094145247687346992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_17
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 279
+        width: 185
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71513fd7ec1d6f60800000000000000
+      internalID: 8029105492879036798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_18
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 279
+        width: 206
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277bb2b6cefb78270800000000000000
+      internalID: 8252775864310937458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_19
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 279
+        width: 183
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7db94f7261986a10800000000000000
+      internalID: 1902930694792396156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_20
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 279
+        width: 207
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8d22a936b4de3c0800000000000000
+      internalID: -4328720775673358109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 2_ Terra Arrasada_21
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 363
+        width: 186
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2374cc8d30ce9b0800000000000000
+      internalID: -5049656852514131256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ato 2_ Terra Arrasada_0: -8449072684115067658
+      Ato 2_ Terra Arrasada_1: 849610413453955142
+      Ato 2_ Terra Arrasada_10: 2610253377749369391
+      Ato 2_ Terra Arrasada_11: -3914597846093288635
+      Ato 2_ Terra Arrasada_12: 5967704849319499037
+      Ato 2_ Terra Arrasada_13: 797585049843806258
+      Ato 2_ Terra Arrasada_14: -4287529134449777990
+      Ato 2_ Terra Arrasada_15: -1986921580527356759
+      Ato 2_ Terra Arrasada_16: 9094145247687346992
+      Ato 2_ Terra Arrasada_17: 8029105492879036798
+      Ato 2_ Terra Arrasada_18: 8252775864310937458
+      Ato 2_ Terra Arrasada_19: 1902930694792396156
+      Ato 2_ Terra Arrasada_2: 4667247345520555568
+      Ato 2_ Terra Arrasada_20: -4328720775673358109
+      Ato 2_ Terra Arrasada_21: -5049656852514131256
+      Ato 2_ Terra Arrasada_3: 7309135946061195868
+      Ato 2_ Terra Arrasada_4: -1271622725478029653
+      Ato 2_ Terra Arrasada_5: -1818463351382175996
+      Ato 2_ Terra Arrasada_6: -1199771786094846959
+      Ato 2_ Terra Arrasada_7: 942673252649602110
+      Ato 2_ Terra Arrasada_8: -5733054611972327690
+      Ato 2_ Terra Arrasada_9: -4187084742732203897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

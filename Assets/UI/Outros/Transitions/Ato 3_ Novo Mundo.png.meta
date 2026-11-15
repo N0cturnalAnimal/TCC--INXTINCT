@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: b6bb7a1f60f7a1146b23e0d026f2532f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5983378465591329482
+    second: Ato 3_ Novo Mundo_0
+  - first:
+      213: -3895446955300339318
+    second: Ato 3_ Novo Mundo_1
+  - first:
+      213: 1597934498264541580
+    second: Ato 3_ Novo Mundo_2
+  - first:
+      213: 713301277591324785
+    second: Ato 3_ Novo Mundo_3
+  - first:
+      213: -1436534473786082402
+    second: Ato 3_ Novo Mundo_4
+  - first:
+      213: 6782435084783543366
+    second: Ato 3_ Novo Mundo_5
+  - first:
+      213: 6612667766810714489
+    second: Ato 3_ Novo Mundo_6
+  - first:
+      213: -8069278056997857784
+    second: Ato 3_ Novo Mundo_7
+  - first:
+      213: -3214641618796554693
+    second: Ato 3_ Novo Mundo_8
+  - first:
+      213: 5439783076416064598
+    second: Ato 3_ Novo Mundo_9
+  - first:
+      213: -6211231600712943868
+    second: Ato 3_ Novo Mundo_10
+  - first:
+      213: -9118739031514333453
+    second: Ato 3_ Novo Mundo_11
+  - first:
+      213: 4306750307307606966
+    second: Ato 3_ Novo Mundo_12
+  - first:
+      213: 31474759576759605
+    second: Ato 3_ Novo Mundo_13
+  - first:
+      213: 8587056299231806081
+    second: Ato 3_ Novo Mundo_14
+  - first:
+      213: -5592125649126347212
+    second: Ato 3_ Novo Mundo_15
+  - first:
+      213: -4383409887882229669
+    second: Ato 3_ Novo Mundo_16
+  - first:
+      213: 6555472656255536496
+    second: Ato 3_ Novo Mundo_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_0
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 827
+        width: 106
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac20b4e530b390350800000000000000
+      internalID: 5983378465591329482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_1
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 824
+        width: 99
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8142f312a790f9c0800000000000000
+      internalID: -3895446955300339318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_2
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 824
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89666fb5f00d2610800000000000000
+      internalID: 1597934498264541580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_3
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 824
+        width: 95
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178c9a49bb726e900800000000000000
+      internalID: 713301277591324785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_4
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 911
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bb066d187601ce0800000000000000
+      internalID: -1436534473786082402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_5
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 824
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6446ba456cc002e50800000000000000
+      internalID: 6782435084783543366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 691
+        width: 3990
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971ad6a6c4ae4cb50800000000000000
+      internalID: 6612667766810714489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_7
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 375
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806d9ca2c5a240090800000000000000
+      internalID: -8069278056997857784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_8
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 297
+        width: 182
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36d177ca7c4363d0800000000000000
+      internalID: -3214641618796554693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_9
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 291
+        width: 183
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c06f403edfd7b40800000000000000
+      internalID: 5439783076416064598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_10
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 297
+        width: 203
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407f2d584c54dc9a0800000000000000
+      internalID: -6211231600712943868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_11
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 291
+        width: 182
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe391bf92bb37180800000000000000
+      internalID: -9118739031514333453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_12
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 297
+        width: 201
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3df5b1696a4cb30800000000000000
+      internalID: 4306750307307606966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_13
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 291
+        width: 178
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53da6f78022df6000800000000000000
+      internalID: 31474759576759605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_14
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 297
+        width: 177
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820efd353a5b2770800000000000000
+      internalID: 8587056299231806081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_15
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 291
+        width: 183
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2978b957c462b0800000000000000
+      internalID: -5592125649126347212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_16
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 291
+        width: 183
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5848d76eeffa23c0800000000000000
+      internalID: -4383409887882229669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ato 3_ Novo Mundo_17
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 375
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc5e206a7b9fa50800000000000000
+      internalID: 6555472656255536496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ato 3_ Novo Mundo_0: 5983378465591329482
+      Ato 3_ Novo Mundo_1: -3895446955300339318
+      Ato 3_ Novo Mundo_10: -6211231600712943868
+      Ato 3_ Novo Mundo_11: -9118739031514333453
+      Ato 3_ Novo Mundo_12: 4306750307307606966
+      Ato 3_ Novo Mundo_13: 31474759576759605
+      Ato 3_ Novo Mundo_14: 8587056299231806081
+      Ato 3_ Novo Mundo_15: -5592125649126347212
+      Ato 3_ Novo Mundo_16: -4383409887882229669
+      Ato 3_ Novo Mundo_17: 6555472656255536496
+      Ato 3_ Novo Mundo_2: 1597934498264541580
+      Ato 3_ Novo Mundo_3: 713301277591324785
+      Ato 3_ Novo Mundo_4: -1436534473786082402
+      Ato 3_ Novo Mundo_5: 6782435084783543366
+      Ato 3_ Novo Mundo_6: 6612667766810714489
+      Ato 3_ Novo Mundo_7: -8069278056997857784
+      Ato 3_ Novo Mundo_8: -3214641618796554693
+      Ato 3_ Novo Mundo_9: 5439783076416064598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
