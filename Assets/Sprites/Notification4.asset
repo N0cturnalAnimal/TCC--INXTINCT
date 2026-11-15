@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee11674e9702ed04396349f242f9cad9, type: 3}
   m_Name: Notification4
   m_EditorClassIdentifier: Assembly-CSharp::Notification
-  _message: Cheiro... Estranho... Comida?
+  _message: 
+  _icon: {fileID: 21300000, guid: c64a7a6865b2a9043874d4d02735e060, type: 3}
   _displayDuration: 3
   _fadeDuration: 1

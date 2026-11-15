@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee11674e9702ed04396349f242f9cad9, type: 3}
   m_Name: NotificationTuto1
   m_EditorClassIdentifier: Assembly-CSharp::Notification
-  _message: "Aperte \"Espa\xE7o\" para pular"
+  _message: 
+  _icon: {fileID: 21300000, guid: 2f0f5b1e2dbc6e84f890bcffda711f53, type: 3}
   _displayDuration: 5
   _fadeDuration: 1

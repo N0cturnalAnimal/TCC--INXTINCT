@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee11674e9702ed04396349f242f9cad9, type: 3}
   m_Name: Notification3
   m_EditorClassIdentifier: Assembly-CSharp::Notification
-  _message: Barulho... Estranho...
+  _message: 
+  _icon: {fileID: 21300000, guid: aaa945aea25e1d149a392d51f3e8340f, type: 3}
   _displayDuration: 3
   _fadeDuration: 1

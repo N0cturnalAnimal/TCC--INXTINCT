@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee11674e9702ed04396349f242f9cad9, type: 3}
   m_Name: Notification2
   m_EditorClassIdentifier: Assembly-CSharp::Notification
-  _message: "Fome... Ca\xE7ar..."
+  _message: 
+  _icon: {fileID: 21300000, guid: 321ad77be58959b4eb48a2ae6982c228, type: 3}
   _displayDuration: 3
   _fadeDuration: 1

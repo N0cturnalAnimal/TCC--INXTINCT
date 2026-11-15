@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee11674e9702ed04396349f242f9cad9, type: 3}
   m_Name: Notification1
   m_EditorClassIdentifier: Assembly-CSharp::Notification
-  _message: "\xC1gua... Funda..."
+  _message: 
+  _icon: {fileID: 21300000, guid: bbb6c3ff2bb04e54b98b1bfc5b484484, type: 3}
   _displayDuration: 3
   _fadeDuration: 1

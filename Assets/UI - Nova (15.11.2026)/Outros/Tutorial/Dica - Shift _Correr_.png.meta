@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 15c8cd3bb9c189046bd0d3aa2e9da4fa
+guid: 3a7de52663557144b88e91641cdeaf73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9014597310898769718
-    second: Dica - A & D _Mover__0
+      213: 2800114454253853853
+    second: Dica - Shift _Correr__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,7 +178,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dica - A & D _Mover__0
+      name: Dica - Shift _Correr__0
       rect:
         serializedVersion: 2
         x: 0
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac0ffa2d187b5e280800000000000000
-      internalID: -9014597310898769718
+      spriteID: d9cdc30b2410cd620800000000000000
+      internalID: 2800114454253853853
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dica - A & D _Mover__0: -9014597310898769718
+      Dica - Shift _Correr__0: 2800114454253853853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
