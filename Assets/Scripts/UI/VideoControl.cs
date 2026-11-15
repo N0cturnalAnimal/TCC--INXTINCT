@@ -25,18 +25,28 @@ public class VideoControl : MonoBehaviour
     public GameObject canvas;
 
     void Update()
+{
+    if (!playingVideo)
+        return;
+
+    if (Input.GetKeyDown(KeyCode.Escape))
     {
-        if (!playingVideo)
-            return;
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-            EndVideo();
-
-        if (Time.time > videoStart + cutscenesPlayer.clip.length)
+        // --- BLOQUEIO DO PAUSE AQUI ---
+        if (PauseManager.Instance != null)
         {
-            EndVideo();
+            PauseManager.Instance.CanTogglePause = false; // Impede que o menu abra
+            PauseManager.Instance.ResumeGame();           // Garante que o tempo volte ao normal
         }
+        // ------------------------------
+
+        EndVideo();
     }
+
+    if (Time.time > videoStart + cutscenesPlayer.clip.length)
+    {
+        EndVideo();
+    }
+}
 
     public void PlayVideo(int videoNum = 0)
     {

@@ -39,6 +39,36 @@ public class PauseManager : MonoBehaviour
     }
 
     // ============================================================
+    // NOVO BLOCO: Sistema de Segurança ao carregar uma nova cena
+    // ============================================================
+    void OnEnable()
+    {
+        // Escuta toda vez que uma cena for carregada
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Para de escutar se o objeto for desativado/destruído
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 1. Desbloqueia o Esc para o jogador poder pausar de novo
+        CanTogglePause = true;
+        
+        // 2. Força o jogo a voltar ao tempo normal (evita que a nova fase inicie pausada)
+        Time.timeScale = 1f;
+        IsPaused = false;
+
+        // 3. Garante que o menu de pause comece fechado
+        if (pauseMenuCanvas != null)
+            pauseMenuCanvas.SetActive(false);
+    }
+    // ============================================================
+
+    // ============================================================
     // UPDATE — detecta o Esc para pausar/despausar
     // ============================================================
     void Update()

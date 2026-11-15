@@ -11,44 +11,56 @@ public class FadeManager : MonoBehaviour
 
     private void Awake()
     {
+        // 1. Proteção Singleton: só permite um FadeManager no jogo
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
         Instance = this;
 
+        // 2. Faz o Fade sobreviver à troca de cenas
+        DontDestroyOnLoad(gameObject);
+
+        // Garante que começa transparente
         fadeImage.color = new Color(0, 0, 0, 0);
     }
 
     public IEnumerator FadeOut()
-{
-    float elapsed = 0f;
-
-    while (elapsed < fadeDuration)
     {
-        elapsed += Time.deltaTime;
+        float elapsed = 0f;
 
-        float alpha = Mathf.Lerp(0f, 1f, elapsed / fadeDuration);
+        while (elapsed < fadeDuration)
+        {
+            // 3. O SEGREDO ESTÁ AQUI: unscaledDeltaTime roda mesmo se o jogo estiver pausado
+            elapsed += Time.unscaledDeltaTime;
 
-        fadeImage.color = new Color(0, 0, 0, alpha);
+            float alpha = Mathf.Lerp(0f, 1f, elapsed / fadeDuration);
 
-        yield return null;
+            fadeImage.color = new Color(0, 0, 0, alpha);
+
+            yield return null;
+        }
+
+        fadeImage.color = new Color(0, 0, 0, 1);
     }
-
-    fadeImage.color = new Color(0, 0, 0, 1);
-}
 
     public IEnumerator FadeIn()
-{
-    float elapsed = 0f;
-
-    while (elapsed < fadeDuration)
     {
-        elapsed += Time.deltaTime;
+        float elapsed = 0f;
 
-        float alpha = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
+        while (elapsed < fadeDuration)
+        {
+            // O mesmo segredo aqui
+            elapsed += Time.unscaledDeltaTime;
 
-        fadeImage.color = new Color(0, 0, 0, alpha);
+            float alpha = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
 
-        yield return null;
+            fadeImage.color = new Color(0, 0, 0, alpha);
+
+            yield return null;
+        }
+
+        fadeImage.color = new Color(0, 0, 0, 0);
     }
-
-    fadeImage.color = new Color(0, 0, 0, 0);
-}
 }
