@@ -22,7 +22,7 @@ public class FadeManager : MonoBehaviour
 
     while (elapsed < fadeDuration)
     {
-        elapsed += Time.UnscaledDeltaTime;
+        elapsed += Time.deltaTime;
 
         float alpha = Mathf.Lerp(0f, 1f, elapsed / fadeDuration);
 
@@ -40,7 +40,7 @@ public class FadeManager : MonoBehaviour
 
     while (elapsed < fadeDuration)
     {
-        elapsed += Time.UnscaledDeltaTime;
+        elapsed += Time.deltaTime;
 
         float alpha = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
 
