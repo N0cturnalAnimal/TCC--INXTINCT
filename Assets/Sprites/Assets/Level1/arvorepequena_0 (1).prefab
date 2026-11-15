@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2604868359878470506}
   - component: {fileID: 444011157834640095}
   - component: {fileID: 8885652063395472940}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: arvorepequena_0 (1)
   m_TagString: Climbable
   m_Icon: {fileID: 0}

@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
         groundLayer
     );
 
-    Debug.Log("Pode pular: " + canJump);
+    //Debug.Log("Pode pular: " + canJump);
 
     if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
         return;
@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
     float targetAngle = 0f;
 
     // Só calcula a inclinação quando os dois sensores encontram o chão.
-    if (hitB.collider != null && hitF.collider != null)
+    if (hitB.collider != null || hitF.collider != null)
     {
         // Organiza os pontos pela posição horizontal no mundo.
         Vector2 leftPoint = hitB.point.x < hitF.point.x
@@ -166,8 +166,8 @@ public class PlayerController : MonoBehaviour
             ? hitF.point
             : hitB.point;
 
-        float deltaX = rightPoint.x - leftPoint.x;
-        float deltaY = rightPoint.y - leftPoint.y;
+        float deltaY = rightPoint.x - leftPoint.x;
+        float deltaX = rightPoint.y - leftPoint.y;
 
         if (Mathf.Abs(deltaX) > 0.01f)
         {
@@ -182,6 +182,9 @@ public class PlayerController : MonoBehaviour
                 -maxInclineAngle,
                 maxInclineAngle
             );
+
+            if (hitF.collider == null && transform.localScale.x > 0 || hitB.collider == null && transform.localScale.x < 0)
+                targetAngle *=-1;
         }
     }
 
@@ -201,7 +204,7 @@ public class PlayerController : MonoBehaviour
     visual.localRotation = Quaternion.Euler(
         0f,
         0f,
-        newAngle
+        localTargetAngle
     );
 }
 

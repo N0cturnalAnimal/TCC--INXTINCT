@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 6450295269414392329}
   - component: {fileID: 7425796704805744847}
   - component: {fileID: 6086851744696329505}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: galhopequeno1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 4958406749866881900}
   - component: {fileID: 8899033900660681933}
   - component: {fileID: 4783601132638904079}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: galhopequeno1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
