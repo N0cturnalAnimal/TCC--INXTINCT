@@ -73,8 +73,14 @@ public class PlayerController : MonoBehaviour
         );
         CheckIncline();
 
+        bool isMovingOnTree =
+    state == PlayerEnum.Climbing &&
+    (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.01f ||
+     Mathf.Abs(Input.GetAxis("Vertical")) > 0.01f);
+     
         animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
-
+        animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
+        animator.SetBool("isClimbingMoving", isMovingOnTree);
         animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
 
         if (Input.GetKeyDown(KeyCode.M))
