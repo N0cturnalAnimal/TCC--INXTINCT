@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 08110b0c9be8a5546854e834a50722fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4417520869219815522
+    second: Gatoruja Studios (Variante #2 - White)@3x_0
+  - first:
+      213: 2080752120739853900
+    second: Gatoruja Studios (Variante #2 - White)@3x_1
+  - first:
+      213: -5190665478323095228
+    second: Gatoruja Studios (Variante #2 - White)@3x_2
+  - first:
+      213: 4549285589742476516
+    second: Gatoruja Studios (Variante #2 - White)@3x_3
+  - first:
+      213: -6907166795820154240
+    second: Gatoruja Studios (Variante #2 - White)@3x_4
+  - first:
+      213: -1204239166337747920
+    second: Gatoruja Studios (Variante #2 - White)@3x_5
+  - first:
+      213: -3551424258407296473
+    second: Gatoruja Studios (Variante #2 - White)@3x_6
+  - first:
+      213: -5735815285000440656
+    second: Gatoruja Studios (Variante #2 - White)@3x_7
+  - first:
+      213: 7999449134510924455
+    second: Gatoruja Studios (Variante #2 - White)@3x_8
+  - first:
+      213: -1432419936363155647
+    second: Gatoruja Studios (Variante #2 - White)@3x_9
+  - first:
+      213: -4775856546071270471
+    second: Gatoruja Studios (Variante #2 - White)@3x_10
+  - first:
+      213: -5787085206730615495
+    second: Gatoruja Studios (Variante #2 - White)@3x_11
+  - first:
+      213: 469723811461975149
+    second: Gatoruja Studios (Variante #2 - White)@3x_12
+  - first:
+      213: 8285644583006738680
+    second: Gatoruja Studios (Variante #2 - White)@3x_13
+  - first:
+      213: -7835511138146947291
+    second: Gatoruja Studios (Variante #2 - White)@3x_14
+  - first:
+      213: -3093242105103015422
+    second: Gatoruja Studios (Variante #2 - White)@3x_15
+  - first:
+      213: -1679753960304462133
+    second: Gatoruja Studios (Variante #2 - White)@3x_16
+  - first:
+      213: -5276926656254796596
+    second: Gatoruja Studios (Variante #2 - White)@3x_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 441
+        width: 1596
+        height: 2228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260d8b553df2e4d30800000000000000
+      internalID: 4417520869219815522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2460
+        width: 2614
+        height: 1863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46f65e870150ec10800000000000000
+      internalID: 2080752120739853900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_2
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1235
+        width: 1266
+        height: 1483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4493ba0bf3d07f7b0800000000000000
+      internalID: -5190665478323095228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_3
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 1442
+        width: 1552
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec5766042f422f30800000000000000
+      internalID: 4549285589742476516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_4
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1852
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08244ca1560d420a0800000000000000
+      internalID: -6907166795820154240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_5
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 1303
+        width: 655
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03473d9cbdea94fe0800000000000000
+      internalID: -1204239166337747920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_6
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 1423
+        width: 713
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7229de6047ec6bec0800000000000000
+      internalID: -3551424258407296473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 298
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fa40536a4660b0800000000000000
+      internalID: -5735815285000440656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_8
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 716
+        width: 656
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2645dda90c30f60800000000000000
+      internalID: 7999449134510924455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_9
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 927
+        width: 415
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fe2eb38a50f1ce0800000000000000
+      internalID: -1432419936363155647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_10
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 938
+        width: 543
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bba23166cfb8bdb0800000000000000
+      internalID: -4775856546071270471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_11
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 768
+        width: 1036
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93557ef6aa420bfa0800000000000000
+      internalID: -5787085206730615495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_12
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 1026
+        width: 828
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ccbbc515bc48600800000000000000
+      internalID: 469723811461975149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_13
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 466
+        width: 629
+        height: 1326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8914959d58cf270800000000000000
+      internalID: 8285644583006738680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_14
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 1074
+        width: 741
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f6229522ca24390800000000000000
+      internalID: -7835511138146947291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 805
+        width: 238
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202ad01b1b89215d0800000000000000
+      internalID: -3093242105103015422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_16
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 2328
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc63ffd3ca050b8e0800000000000000
+      internalID: -1679753960304462133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatoruja Studios (Variante #2 - White)@3x_17
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 796
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc942c1a2794c6b0800000000000000
+      internalID: -5276926656254796596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gatoruja Studios (Variante #2 - White)@3x_0: 4417520869219815522
+      Gatoruja Studios (Variante #2 - White)@3x_1: 2080752120739853900
+      Gatoruja Studios (Variante #2 - White)@3x_10: -4775856546071270471
+      Gatoruja Studios (Variante #2 - White)@3x_11: -5787085206730615495
+      Gatoruja Studios (Variante #2 - White)@3x_12: 469723811461975149
+      Gatoruja Studios (Variante #2 - White)@3x_13: 8285644583006738680
+      Gatoruja Studios (Variante #2 - White)@3x_14: -7835511138146947291
+      Gatoruja Studios (Variante #2 - White)@3x_15: -3093242105103015422
+      Gatoruja Studios (Variante #2 - White)@3x_16: -1679753960304462133
+      Gatoruja Studios (Variante #2 - White)@3x_17: -5276926656254796596
+      Gatoruja Studios (Variante #2 - White)@3x_2: -5190665478323095228
+      Gatoruja Studios (Variante #2 - White)@3x_3: 4549285589742476516
+      Gatoruja Studios (Variante #2 - White)@3x_4: -6907166795820154240
+      Gatoruja Studios (Variante #2 - White)@3x_5: -1204239166337747920
+      Gatoruja Studios (Variante #2 - White)@3x_6: -3551424258407296473
+      Gatoruja Studios (Variante #2 - White)@3x_7: -5735815285000440656
+      Gatoruja Studios (Variante #2 - White)@3x_8: 7999449134510924455
+      Gatoruja Studios (Variante #2 - White)@3x_9: -1432419936363155647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

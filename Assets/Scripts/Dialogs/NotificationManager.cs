@@ -46,28 +46,43 @@ public class NotificationManager : MonoBehaviour
         {
             NotificationSO data = notificationQueue.Dequeue();
             
+            // ====================================================
+            // CORREÇÃO: Esconde a UI antiga antes de colocar a nova
+            // ====================================================
+            if (notificationUICanvasGroup != null)
+                notificationUICanvasGroup.alpha = 0;
+
+            // Configura o Texto
             if (notificationTextUI != null)
                 notificationTextUI.text = data.Message;
             
-            // Lógica segura para a Imagem
+            // Lógica segura para a Imagem com Debug
             if (notificationImageUI != null)
             {
                 if (data.Icon != null)
                 {
                     notificationImageUI.sprite = data.Icon;
                     notificationImageUI.gameObject.SetActive(true);
+                    Debug.Log("SUCESSO: A imagem " + data.Icon.name + " foi colocada no ícone!"); 
                 }
                 else
                 {
-                    // Se o SO não tiver imagem, esconde o ícone para não ficar quadrado branco
                     notificationImageUI.gameObject.SetActive(false); 
+                    Debug.Log("AVISO: O NotificationSO '" + data.name + "' não tem nenhum ícone salvo no campo 'Icon'!"); 
                 }
             }
+            else
+            {
+                Debug.LogError("ERRO GRAVE: O campo 'Notification Image UI' está vazio no Inspector do NotificationManager!"); 
+            }
 
+            // Executa o Fade In
             yield return StartCoroutine(FadeCanvasGroup(notificationUICanvasGroup, true, data.FadeDuration));
             
+            // Espera o tempo na tela
             yield return new WaitForSecondsRealtime(data.DisplayDuration); 
             
+            // Executa o Fade Out
             yield return StartCoroutine(FadeCanvasGroup(notificationUICanvasGroup, false, data.FadeDuration));
         }
         isDisplayingNotification = false;
@@ -75,7 +90,7 @@ public class NotificationManager : MonoBehaviour
 
     public IEnumerator FadeCanvasGroup(CanvasGroup canvasGroup, bool fadeIn, float duration)
     {
-        if (canvasGroup == null) yield break; // Evita erro se o CanvasGroup não existir
+        if (canvasGroup == null) yield break; 
 
         float targetAlpha = fadeIn ? 1f : 0f;
         float initialAlpha = canvasGroup.alpha;
@@ -90,16 +105,13 @@ public class NotificationManager : MonoBehaviour
         canvasGroup.alpha = targetAlpha;
     }
 
-    // ==========================================
-    // ADICIONAL: Forçar o fechamento do Tip
-    // ==========================================
     public void ForceHideNotification()
     {
-        StopAllCoroutines(); // Para qualquer fade que esteja acontecendo
-        notificationQueue.Clear(); // Limpa a fila de textos pendentes
+        StopAllCoroutines(); 
+        notificationQueue.Clear(); 
         isDisplayingNotification = false;
 
         if (notificationUICanvasGroup != null)
-            notificationUICanvasGroup.alpha = 0; // Esconde na hora
+            notificationUICanvasGroup.alpha = 0; 
     }
 }
