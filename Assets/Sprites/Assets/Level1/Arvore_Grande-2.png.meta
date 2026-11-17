@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 98968a5ff2f732f4db437bf2b5a21e3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5929564856832317857
+    second: Arvore_Grande-2_0
+  - first:
+      213: -5614817551960707678
+    second: Arvore_Grande-2_1
+  - first:
+      213: 6320836479173633160
+    second: Arvore_Grande-2_2
+  - first:
+      213: 4727716528905579254
+    second: Arvore_Grande-2_3
+  - first:
+      213: 5597312170160560086
+    second: Arvore_Grande-2_4
+  - first:
+      213: 2998108232544211423
+    second: Arvore_Grande-2_5
+  - first:
+      213: -6029608802869993208
+    second: Arvore_Grande-2_6
+  - first:
+      213: 3662765808390062433
+    second: Arvore_Grande-2_7
+  - first:
+      213: -5477055298900781356
+    second: Arvore_Grande-2_8
+  - first:
+      213: 1026402926876325671
+    second: Arvore_Grande-2_9
+  - first:
+      213: -7333622895530624352
+    second: Arvore_Grande-2_10
+  - first:
+      213: -4494829216630718354
+    second: Arvore_Grande-2_11
+  - first:
+      213: -5019669992148464450
+    second: Arvore_Grande-2_12
+  - first:
+      213: 6174720806146553526
+    second: Arvore_Grande-2_13
+  - first:
+      213: 8807802834285531089
+    second: Arvore_Grande-2_14
+  - first:
+      213: -7314381533417613216
+    second: Arvore_Grande-2_15
+  - first:
+      213: 424117991279083364
+    second: Arvore_Grande-2_16
+  - first:
+      213: -6189700320760593060
+    second: Arvore_Grande-2_17
+  - first:
+      213: -8418926705301908665
+    second: Arvore_Grande-2_18
+  - first:
+      213: 5748946891285918598
+    second: Arvore_Grande-2_19
+  - first:
+      213: -7464693930177410540
+    second: Arvore_Grande-2_20
+  - first:
+      213: -4646532347110778434
+    second: Arvore_Grande-2_21
+  - first:
+      213: -2403498721100587632
+    second: Arvore_Grande-2_22
+  - first:
+      213: -70174886156553137
+    second: Arvore_Grande-2_23
+  - first:
+      213: 6222154127074578060
+    second: Arvore_Grande-2_24
+  - first:
+      213: 2114313478812543709
+    second: Arvore_Grande-2_25
+  - first:
+      213: -7783630225553170013
+    second: Arvore_Grande-2_26
+  - first:
+      213: -6743147192726494508
+    second: Arvore_Grande-2_27
+  - first:
+      213: -4226341101009560783
+    second: Arvore_Grande-2_28
+  - first:
+      213: 5140888878827255625
+    second: Arvore_Grande-2_29
+  - first:
+      213: -2184918660611202126
+    second: Arvore_Grande-2_30
+  - first:
+      213: -4499954039400969193
+    second: Arvore_Grande-2_31
+  - first:
+      213: -2766376685436556646
+    second: Arvore_Grande-2_32
+  - first:
+      213: -8418460994552194561
+    second: Arvore_Grande-2_33
+  - first:
+      213: -8068223471724703293
+    second: Arvore_Grande-2_34
+  - first:
+      213: -7311904464639417152
+    second: Arvore_Grande-2_35
+  - first:
+      213: 5424876134174285439
+    second: Arvore_Grande-2_36
+  - first:
+      213: -4322739844860354107
+    second: Arvore_Grande-2_37
+  - first:
+      213: 1360454270052979443
+    second: Arvore_Grande-2_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arvore_Grande-2_0
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1224
+        width: 171
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56aedbcd24f5bda0800000000000000
+      internalID: -5929564856832317857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_1
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1362
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ade0c06f292412b0800000000000000
+      internalID: -5614817551960707678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_2
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1369
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884a970e94f18b750800000000000000
+      internalID: 6320836479173633160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_3
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1374
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fae82072293c9140800000000000000
+      internalID: 4727716528905579254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_4
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1350
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7146f43c5adad40800000000000000
+      internalID: 5597312170160560086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_5
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1356
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1d8f68d8b6b9920800000000000000
+      internalID: 2998108232544211423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_6
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801ad527db6825ca0800000000000000
+      internalID: -6029608802869993208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_7
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1340
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1614988b812c4d230800000000000000
+      internalID: 3662765808390062433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_8
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1329
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d619dd69379df3b0800000000000000
+      internalID: -5477055298900781356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_9
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1301
+        width: 114
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72772ec16048e3e00800000000000000
+      internalID: 1026402926876325671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_10
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1330
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aab93be4dcb93a90800000000000000
+      internalID: -7333622895530624352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_11
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1308
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60cda064a82f91c0800000000000000
+      internalID: -4494829216630718354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_12
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1315
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc8d4cccbc865ab0800000000000000
+      internalID: -5019669992148464450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_13
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1310
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6349dabd301b550800000000000000
+      internalID: 6174720806146553526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_14
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1298
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df8445130a9b3a70800000000000000
+      internalID: 8807802834285531089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_15
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1298
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06857f4afb81e7a90800000000000000
+      internalID: -7314381533417613216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_16
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fba05e015c2e500800000000000000
+      internalID: 424117991279083364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_17
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1280
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5581fa4a54c91aa0800000000000000
+      internalID: -6189700320760593060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_18
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1286
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7431e6454c6f92b80800000000000000
+      internalID: -8418926705301908665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1249
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683fea70dbc58cf40800000000000000
+      internalID: 5748946891285918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_20
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1262
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ac2ce8b64186890800000000000000
+      internalID: -7464693930177410540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_21
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1235
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9991dd273348fb0800000000000000
+      internalID: -4646532347110778434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_22
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1208
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d91beb5ae05aed0800000000000000
+      internalID: -2403498721100587632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_23
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1222
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f443c761050b60ff0800000000000000
+      internalID: -70174886156553137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_24
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1208
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ec2025638895650800000000000000
+      internalID: 6222154127074578060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_25
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1211
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda217828ec875d10800000000000000
+      internalID: 2114313478812543709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_26
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1e8ee9c8dfaf390800000000000000
+      internalID: -7783630225553170013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_27
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1195
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d26d5dda578b62a0800000000000000
+      internalID: -6743147192726494508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_28
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1158
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b11b629250955c0800000000000000
+      internalID: -4226341101009560783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_29
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1167
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947314c923b185740800000000000000
+      internalID: 5140888878827255625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_30
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 1151
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3a52bed0c9da1e0800000000000000
+      internalID: -2184918660611202126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_31
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1139
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ccbe794a3fc81c0800000000000000
+      internalID: -4499954039400969193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_32
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 315
+        width: 2006
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aa1adbf0bdb99d0800000000000000
+      internalID: -2766376685436556646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_33
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1124
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff91c30145e9b2b80800000000000000
+      internalID: -8418460994552194561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_34
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1105
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1516fef79e70090800000000000000
+      internalID: -8068223471724703293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_35
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1113
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4239921a5e68a90800000000000000
+      internalID: -7311904464639417152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_36
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1107
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ed3ff0a18094b40800000000000000
+      internalID: 5424876134174285439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 636
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1eba2930b8204c0800000000000000
+      internalID: -4322739844860354107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arvore_Grande-2_38
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 302
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2dbab53fd41e210800000000000000
+      internalID: 1360454270052979443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Arvore_Grande-2_0: -5929564856832317857
+      Arvore_Grande-2_1: -5614817551960707678
+      Arvore_Grande-2_10: -7333622895530624352
+      Arvore_Grande-2_11: -4494829216630718354
+      Arvore_Grande-2_12: -5019669992148464450
+      Arvore_Grande-2_13: 6174720806146553526
+      Arvore_Grande-2_14: 8807802834285531089
+      Arvore_Grande-2_15: -7314381533417613216
+      Arvore_Grande-2_16: 424117991279083364
+      Arvore_Grande-2_17: -6189700320760593060
+      Arvore_Grande-2_18: -8418926705301908665
+      Arvore_Grande-2_19: 5748946891285918598
+      Arvore_Grande-2_2: 6320836479173633160
+      Arvore_Grande-2_20: -7464693930177410540
+      Arvore_Grande-2_21: -4646532347110778434
+      Arvore_Grande-2_22: -2403498721100587632
+      Arvore_Grande-2_23: -70174886156553137
+      Arvore_Grande-2_24: 6222154127074578060
+      Arvore_Grande-2_25: 2114313478812543709
+      Arvore_Grande-2_26: -7783630225553170013
+      Arvore_Grande-2_27: -6743147192726494508
+      Arvore_Grande-2_28: -4226341101009560783
+      Arvore_Grande-2_29: 5140888878827255625
+      Arvore_Grande-2_3: 4727716528905579254
+      Arvore_Grande-2_30: -2184918660611202126
+      Arvore_Grande-2_31: -4499954039400969193
+      Arvore_Grande-2_32: -2766376685436556646
+      Arvore_Grande-2_33: -8418460994552194561
+      Arvore_Grande-2_34: -8068223471724703293
+      Arvore_Grande-2_35: -7311904464639417152
+      Arvore_Grande-2_36: 5424876134174285439
+      Arvore_Grande-2_37: -4322739844860354107
+      Arvore_Grande-2_38: 1360454270052979443
+      Arvore_Grande-2_4: 5597312170160560086
+      Arvore_Grande-2_5: 2998108232544211423
+      Arvore_Grande-2_6: -6029608802869993208
+      Arvore_Grande-2_7: 3662765808390062433
+      Arvore_Grande-2_8: -5477055298900781356
+      Arvore_Grande-2_9: 1026402926876325671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
