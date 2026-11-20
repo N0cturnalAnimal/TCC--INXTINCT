@@ -132,6 +132,9 @@ canJump = Physics2D.Raycast(
         if (Input.GetKeyDown(KeyCode.E))
             EnterCarryMode();
 
+        if (Input.GetKeyDown(KeyCode.F))
+            EatAnimal();
+
         if (Input.GetAxis("Vertical") != 0f && canClimb && state != PlayerEnum.Carrying)
             EnterClimbMode();
         
@@ -154,8 +157,8 @@ canJump = Physics2D.Raycast(
     }
 
     void CheckIncline()
-{
-    if (state == PlayerEnum.Climbing)
+    {
+        if (state == PlayerEnum.Climbing)
         return;
 
     // Detecta a superfície abaixo dos dois sensores.
@@ -316,6 +319,22 @@ canJump = Physics2D.Raycast(
             Collider2D col = child.GetComponent<Collider2D>();
             col.enabled = true;
         }
+    }
+
+    void EatAnimal()
+    {
+        if (state != PlayerEnum.Carrying || nextToHold == null)
+            return;
+
+        staminaWheel.RecoverStamina(25f);
+
+        Destroy(nextToHold);
+
+        nextToHold = null;
+        carrying = false;
+        canCarry = false;
+
+        state = PlayerEnum.Normal;
     }
 
     void OnTriggerEnter2D(Collider2D other)
