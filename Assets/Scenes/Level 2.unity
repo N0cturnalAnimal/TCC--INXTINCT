@@ -2320,6 +2320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515528194438293715, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1004653378}
     - target: {fileID: 3249057210306614960, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
@@ -17028,6 +17032,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515528194438293715, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1004653378}
     - target: {fileID: 3249057210306614960, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
@@ -20725,6 +20733,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515528194438293715, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1004653378}
     - target: {fileID: 3249057210306614960, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
@@ -21358,6 +21370,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515528194438293715, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1004653378}
     - target: {fileID: 3249057210306614960, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
@@ -24159,6 +24175,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515528194438293715, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1004653378}
     - target: {fileID: 3249057210306614960, guid: 1b93f1433e194514eae58f6c0f1fd34a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17

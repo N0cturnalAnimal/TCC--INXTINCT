@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 216883904387116605}
   - component: {fileID: 5215108106788564951}
   - component: {fileID: 3298819409077165765}
+  - component: {fileID: 2857372708761260415}
   m_Layer: 0
   m_Name: Bird
-  m_TagString: Untagged
+  m_TagString: Carriable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,3 +111,19 @@ MonoBehaviour:
   distanceToReturn: 75
   speed: 9
   moveOnce: 1
+  minIdleSpeed: 0.8
+  maxIdleSpeed: 1.2
+--- !u!114 &2857372708761260415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102727595294572043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674265fd9c7ad3c4390a6ed34dab9f2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarryableItem
+  effect: 0
+  staminaAmount: 25

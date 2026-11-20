@@ -133,7 +133,7 @@ canJump = Physics2D.Raycast(
             EnterCarryMode();
 
         if (Input.GetKeyDown(KeyCode.F))
-            EatAnimal();
+            ConsumeCarriedItem();
 
         if (Input.GetAxis("Vertical") != 0f && canClimb && state != PlayerEnum.Carrying)
             EnterClimbMode();
@@ -321,12 +321,24 @@ canJump = Physics2D.Raycast(
         }
     }
 
-    void EatAnimal()
+    void ConsumeCarriedItem()
     {
         if (state != PlayerEnum.Carrying || nextToHold == null)
+        return;
+
+        CarryableItem item = nextToHold.GetComponent<CarryableItem>();
+
+        if (item == null)
             return;
 
-        staminaWheel.RecoverStamina(25f);
+        if (item.effect == CarryableItem.ItemEffect.RecoverStamina)
+        {
+            staminaWheel.RecoverStamina(item.staminaAmount);
+        }
+        else if (item.effect == CarryableItem.ItemEffect.DrainStamina)
+        {
+            staminaWheel.DrainStamina(item.staminaAmount);
+        }
 
         Destroy(nextToHold);
 

@@ -80,6 +80,18 @@ public class StaminaWheel : MonoBehaviour
         UpdateWheel();
         SetVisibility(stamina < maxStamina);
     }
+
+    public void DrainStamina(float amount)
+    {
+        stamina -= amount;
+        stamina = Mathf.Max(stamina, 0f);
+
+        if (stamina <= 0f)
+        staminaExhausted = true;
+
+        UpdateWheel();
+        SetVisibility(true);
+    }
     void UpdateWheel()
     {
         float fill = stamina / maxStamina;
