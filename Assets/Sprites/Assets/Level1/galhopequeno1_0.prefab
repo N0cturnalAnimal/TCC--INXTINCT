@@ -101,7 +101,7 @@ PlatformEffector2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5512553824844380678}
   m_Enabled: 1
-  m_UseColliderMask: 1
+  m_UseColliderMask: 0
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -143,7 +143,7 @@ PolygonCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -171,12 +171,6 @@ PolygonCollider2D:
       - {x: 3.9805214, y: 0.52000004}
       - {x: 2.1102765, y: 0.57}
       - {x: 1.8002357, y: 0.54}
-      - {x: 1.4001834, y: 0.92}
-      - {x: 0.8301087, y: 1.6800001}
-      - {x: 0.7952214, y: 1.5731553}
-      - {x: 0.89894587, y: 1.3772311}
-      - {x: 1.1409698, y: 1.0314828}
-      - {x: 1.4101847, y: 0.73}
       - {x: 1.480194, y: 0.55}
       - {x: 0.5500721, y: 0.79}
       - {x: -1.2501637, y: 1.34}
@@ -469,7 +463,7 @@ PlatformEffector2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8014215597270643525}
-  m_Enabled: 0
+  m_Enabled: 1
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2

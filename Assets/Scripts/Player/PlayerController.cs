@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -78,10 +79,35 @@ public class PlayerController : MonoBehaviour
     (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.01f ||
      Mathf.Abs(Input.GetAxis("Vertical")) > 0.01f);
      
-        animator.SetBool("isRunning", Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
-        animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
-        animator.SetBool("isClimbingMoving", isMovingOnTree);
-        animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
+        // Detecta se a onça está no chão
+canJump = Physics2D.Raycast(
+    groundCheck.position,
+    Vector2.down,
+    rayLength,
+    groundLayer
+);
+
+
+    float verticalSpeed = theRB.linearVelocity.y;
+
+    bool canUseJumpAnimation = state != PlayerEnum.Climbing && state != PlayerEnum.Carrying;
+
+    // Animações de movimento aéreo
+    bool isJumping = !canJump && verticalSpeed > 0.01f;
+    bool isFalling = !canJump && verticalSpeed < -0.01f;
+
+    animator.SetBool("isJumping", canUseJumpAnimation && isJumping);
+    animator.SetBool("isFalling", canUseJumpAnimation && isFalling);
+
+    // Animações normais
+    animator.SetBool("isRunning", canJump && Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
+
+    animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
+    animator.SetBool("isClimbingMoving", isMovingOnTree);
+    animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
+
+    animator.SetFloat("yVelocity", theRB.linearVelocity.y);
+    Debug.Log("Y Velocity: " + theRB.linearVelocity.y);
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
@@ -108,29 +134,24 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetAxis("Vertical") != 0f && canClimb && state != PlayerEnum.Carrying)
             EnterClimbMode();
+        
+    // Detecta se a onça está no chão
+    canJump = Physics2D.Raycast(groundCheck.position, Vector2.down, rayLength, groundLayer);
+
+    
 
         AttentionCaller();
     }
 
     void Jump()
-{
-    canJump = Physics2D.Raycast(
-        groundCheck.position,
-        Vector2.down,
-        rayLength,
-        groundLayer
-    );
-
-    Debug.Log("Pode pular: " + canJump);
-
-    if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
+    {
+        if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
         return;
 
-    theRB.linearVelocity = new Vector2(
-        theRB.linearVelocity.x,
-        jumpForce
-    );
-}
+        animator.SetTrigger("Jump");
+
+        theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, jumpForce);
+    }
 
     void CheckIncline()
 {

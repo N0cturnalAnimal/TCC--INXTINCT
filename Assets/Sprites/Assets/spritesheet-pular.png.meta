@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 733df7930feb3324dba7ec5c2f2b03de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1731622782551003399
+    second: spritesheet-pular_0
+  - first:
+      213: -831086483113657702
+    second: spritesheet-pular_1
+  - first:
+      213: 6288909183443752232
+    second: spritesheet-pular_2
+  - first:
+      213: 4375643449570510119
+    second: spritesheet-pular_3
+  - first:
+      213: 5785733415181772804
+    second: spritesheet-pular_4
+  - first:
+      213: 6437389750137179486
+    second: spritesheet-pular_5
+  - first:
+      213: 3073364932459929369
+    second: spritesheet-pular_6
+  - first:
+      213: 232645744756133101
+    second: spritesheet-pular_7
+  - first:
+      213: 4762022210881950462
+    second: spritesheet-pular_8
+  - first:
+      213: -7055209244751985
+    second: spritesheet-pular_9
+  - first:
+      213: -7463140716896880181
+    second: spritesheet-pular_10
+  - first:
+      213: 3875707555429316192
+    second: spritesheet-pular_11
+  - first:
+      213: 7489434653178717006
+    second: spritesheet-pular_12
+  - first:
+      213: 8961921906883860535
+    second: spritesheet-pular_13
+  - first:
+      213: 9013343832747902539
+    second: spritesheet-pular_14
+  - first:
+      213: -1279216407561518255
+    second: spritesheet-pular_15
+  - first:
+      213: -753268530713741293
+    second: spritesheet-pular_16
+  - first:
+      213: -8396176111664233761
+    second: spritesheet-pular_17
+  - first:
+      213: 1597909488518002183
+    second: spritesheet-pular_18
+  - first:
+      213: -3238007079058339544
+    second: spritesheet-pular_19
+  - first:
+      213: 5116799368153154625
+    second: spritesheet-pular_20
+  - first:
+      213: 2303004050492603673
+    second: spritesheet-pular_21
+  - first:
+      213: 2452123882528755463
+    second: spritesheet-pular_22
+  - first:
+      213: -3084758232847804340
+    second: spritesheet-pular_23
+  - first:
+      213: -3601231284902769520
+    second: spritesheet-pular_24
+  - first:
+      213: 5095267913725713341
+    second: spritesheet-pular_25
+  - first:
+      213: 4897637174792076646
+    second: spritesheet-pular_26
+  - first:
+      213: 1191041670587497975
+    second: spritesheet-pular_27
+  - first:
+      213: -8486042626983516807
+    second: spritesheet-pular_28
+  - first:
+      213: 2787844284241723912
+    second: spritesheet-pular_29
+  - first:
+      213: -6211918840242858872
+    second: spritesheet-pular_30
+  - first:
+      213: 6251812360805471652
+    second: spritesheet-pular_31
+  - first:
+      213: 4202270100604737369
+    second: spritesheet-pular_32
+  - first:
+      213: -1559676040633269651
+    second: spritesheet-pular_33
+  - first:
+      213: 9182227533338260117
+    second: spritesheet-pular_34
+  - first:
+      213: -2865044617623212285
+    second: spritesheet-pular_35
+  - first:
+      213: 1399824322125183825
+    second: spritesheet-pular_36
+  - first:
+      213: 1810949458856981899
+    second: spritesheet-pular_37
+  - first:
+      213: -7844386821212359983
+    second: spritesheet-pular_38
+  - first:
+      213: -7763085537517668552
+    second: spritesheet-pular_39
+  - first:
+      213: -4791355278562101231
+    second: spritesheet-pular_40
+  - first:
+      213: -6416964839498989644
+    second: spritesheet-pular_41
+  - first:
+      213: -5180244409290256954
+    second: spritesheet-pular_42
+  - first:
+      213: 4399125109096103066
+    second: spritesheet-pular_43
+  - first:
+      213: 9000076174661490425
+    second: spritesheet-pular_44
+  - first:
+      213: -5908214374111030078
+    second: spritesheet-pular_45
+  - first:
+      213: -2461948164410964022
+    second: spritesheet-pular_46
+  - first:
+      213: 4796403546783478231
+    second: spritesheet-pular_47
+  - first:
+      213: -5415797580095150927
+    second: spritesheet-pular_48
+  - first:
+      213: -7797601160199176351
+    second: spritesheet-pular_49
+  - first:
+      213: 628281339722705458
+    second: spritesheet-pular_50
+  - first:
+      213: 3705311404902378581
+    second: spritesheet-pular_51
+  - first:
+      213: 5187496223006503755
+    second: spritesheet-pular_52
+  - first:
+      213: -6677969229463527460
+    second: spritesheet-pular_53
+  - first:
+      213: 5184400871544086916
+    second: spritesheet-pular_54
+  - first:
+      213: 9073708000970299101
+    second: spritesheet-pular_55
+  - first:
+      213: 3456811997464879612
+    second: spritesheet-pular_56
+  - first:
+      213: -2261357210776994660
+    second: spritesheet-pular_57
+  - first:
+      213: -8685119766980343526
+    second: spritesheet-pular_58
+  - first:
+      213: -8287325885729653073
+    second: spritesheet-pular_59
+  - first:
+      213: -4643866551585364602
+    second: spritesheet-pular_60
+  - first:
+      213: -2157037016967753272
+    second: spritesheet-pular_61
+  - first:
+      213: -1110741148781878147
+    second: spritesheet-pular_62
+  - first:
+      213: 2472188464979137090
+    second: spritesheet-pular_63
+  - first:
+      213: 6807743454021420150
+    second: spritesheet-pular_64
+  - first:
+      213: 1410621710093243919
+    second: spritesheet-pular_65
+  - first:
+      213: -6801147611721956144
+    second: spritesheet-pular_66
+  - first:
+      213: -6604187763611062788
+    second: spritesheet-pular_67
+  - first:
+      213: -1728673761979716313
+    second: spritesheet-pular_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-pular_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32746696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7011de60fb5f70810800000000000000
+      internalID: 1731622782551003399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.3550724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ab1643f336774f0800000000000000
+      internalID: -831086483113657702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3840
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6449276, y: 0.50690114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8255bdf0591b64750800000000000000
+      internalID: 6288909183443752232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3840
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6725327, y: 0.54140776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7254a63c88869bc30800000000000000
+      internalID: 4375643449570510119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.67943406, y: 0.54830915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408640113ed0b4050800000000000000
+      internalID: 5785733415181772804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6035196, y: 0.5138025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dcaa9fed3365950800000000000000
+      internalID: 6437389750137179486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_6
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.63802624, y: 0.5621117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f9a686f19c6aa20800000000000000
+      internalID: 3073364932459929369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6380264, y: 0.5552105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec02be72168a3300800000000000000
+      internalID: 232645744756133101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.63802624, y: 0.6449274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2932478f9161240800000000000000
+      internalID: 4762022210881950462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_9
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.65873015, y: 0.6449274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f878627135fe6eff0800000000000000
+      internalID: -7055209244751985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6518286, y: 0.610421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc97b943f099d6890800000000000000
+      internalID: -7463140716896880181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6587303, y: 0.610421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06679aebc7749c530800000000000000
+      internalID: 3875707555429316192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.6725328, y: 0.5207037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43e737e221dfe760800000000000000
+      internalID: 7489434653178717006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-pular_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.63802624, y: 0.39648014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7389a94fd742f5c70800000000000000
+      internalID: 8961921906883860535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 631307203430c1f4aa18043aa2fedfe9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":1280.0,"y":1280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spritesheet-pular_0: 1731622782551003399
+      spritesheet-pular_1: -831086483113657702
+      spritesheet-pular_10: -7463140716896880181
+      spritesheet-pular_11: 3875707555429316192
+      spritesheet-pular_12: 7489434653178717006
+      spritesheet-pular_13: 8961921906883860535
+      spritesheet-pular_2: 6288909183443752232
+      spritesheet-pular_3: 4375643449570510119
+      spritesheet-pular_4: 5785733415181772804
+      spritesheet-pular_5: 6437389750137179486
+      spritesheet-pular_6: 3073364932459929369
+      spritesheet-pular_7: 232645744756133101
+      spritesheet-pular_8: 4762022210881950462
+      spritesheet-pular_9: -7055209244751985
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
