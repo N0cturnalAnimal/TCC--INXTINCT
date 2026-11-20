@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: ec17eb203f2b4fe4c8728f30a4f51325
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6647305688694979290
+    second: spritesheet-gamba-idle_0
+  - first:
+      213: -8425428292962351513
+    second: spritesheet-gamba-idle_1
+  - first:
+      213: -2915160410813429676
+    second: spritesheet-gamba-idle_2
+  - first:
+      213: 8719364085065931320
+    second: spritesheet-gamba-idle_3
+  - first:
+      213: 1981774579757809963
+    second: spritesheet-gamba-idle_4
+  - first:
+      213: -9132228370468145530
+    second: spritesheet-gamba-idle_5
+  - first:
+      213: -6593272916362430141
+    second: spritesheet-gamba-idle_6
+  - first:
+      213: -4120552632540568132
+    second: spritesheet-gamba-idle_7
+  - first:
+      213: 5808344822963995962
+    second: spritesheet-gamba-idle_8
+  - first:
+      213: -3592340968956166731
+    second: spritesheet-gamba-idle_9
+  - first:
+      213: -238595228237690009
+    second: spritesheet-gamba-idle_10
+  - first:
+      213: -8564812071040224476
+    second: spritesheet-gamba-idle_11
+  - first:
+      213: 1686950321209647229
+    second: spritesheet-gamba-idle_12
+  - first:
+      213: -839101416075764272
+    second: spritesheet-gamba-idle_13
+  - first:
+      213: -929607677892130114
+    second: spritesheet-gamba-idle_14
+  - first:
+      213: -7198140179285720709
+    second: spritesheet-gamba-idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62507efe1b600c3a0800000000000000
+      internalID: -6647305688694979290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766047d7b9dd21b80800000000000000
+      internalID: -8425428292962351513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4580f223d054b87d0800000000000000
+      internalID: -2915160410813429676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a57ad2077610970800000000000000
+      internalID: 8719364085065931320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b210d5bfa7da08b10800000000000000
+      internalID: 1981774579757809963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68670828eaec34180800000000000000
+      internalID: -9132228370468145530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_6
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3497309173dff74a0800000000000000
+      internalID: -6593272916362430141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_7
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb56e1b563bd0d6c0800000000000000
+      internalID: -4120552632540568132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a358fb1b7d26b9050800000000000000
+      internalID: 5808344822963995962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdf849fbe0752ec0800000000000000
+      internalID: -3592340968956166731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b0acf67e650bcf0800000000000000
+      internalID: -238595228237690009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237ba9bccca32980800000000000000
+      internalID: -8564812071040224476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70ae691160496710800000000000000
+      internalID: 1686950321209647229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_13
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddd64435b9ea54f0800000000000000
+      internalID: -839101416075764272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_14
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba83c20ebe5913f0800000000000000
+      internalID: -929607677892130114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-gamba-idle_15
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b714532f4a11b1c90800000000000000
+      internalID: -7198140179285720709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 088723148b187e04f838386381d8b49a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":2000.0,"y":2000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spritesheet-gamba-idle_0: -6647305688694979290
+      spritesheet-gamba-idle_1: -8425428292962351513
+      spritesheet-gamba-idle_10: -238595228237690009
+      spritesheet-gamba-idle_11: -8564812071040224476
+      spritesheet-gamba-idle_12: 1686950321209647229
+      spritesheet-gamba-idle_13: -839101416075764272
+      spritesheet-gamba-idle_14: -929607677892130114
+      spritesheet-gamba-idle_15: -7198140179285720709
+      spritesheet-gamba-idle_2: -2915160410813429676
+      spritesheet-gamba-idle_3: 8719364085065931320
+      spritesheet-gamba-idle_4: 1981774579757809963
+      spritesheet-gamba-idle_5: -9132228370468145530
+      spritesheet-gamba-idle_6: -6593272916362430141
+      spritesheet-gamba-idle_7: -4120552632540568132
+      spritesheet-gamba-idle_8: 5808344822963995962
+      spritesheet-gamba-idle_9: -3592340968956166731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,17 +29,21 @@ public class OpossumArmadillo : MonoBehaviour
     public Vector3 NewPositionOffset;
     private Vector3 NextPos;
 
+    private Animator animator;
+
     void Start()
     {
         failed = false;
         completed = false;
         NextPos = ArmadilloObj.transform.position + NewPositionOffset;
+        animator = ArmadilloObj.GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
         if (failed)
         {
+            animator.SetBool("isRunning", failed);
             ArmadilloObj.transform.position = Vector3.MoveTowards(
                 ArmadilloObj.transform.position,
                 NextPos,
@@ -48,6 +52,7 @@ public class OpossumArmadillo : MonoBehaviour
 
             if (Vector3.Distance(ArmadilloObj.transform.position, NextPos) < 0.01f)
             {
+                animator.SetBool("isRunning", false);
                 armadillo.enabled = false;
             }
         }
