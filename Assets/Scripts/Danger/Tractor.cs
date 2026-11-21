@@ -9,6 +9,7 @@ public class Tractor : MonoBehaviour
     public float maxSpeed = 10f;
     private Rigidbody2D rb;
     public float chaseSpeed = 10f;
+    public CameraShake cameraShake;
 
     public AudioSource deathAudio;
 
@@ -17,6 +18,22 @@ public class Tractor : MonoBehaviour
         originalPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
     }
+
+    void OnEnable()
+{
+    if (cameraShake != null)
+    {
+        cameraShake.StartContinuousShake(1f);
+    }
+}
+
+void OnDisable()
+{
+    if (cameraShake != null)
+    {
+        cameraShake.StopShake();
+    }
+}
 
     void FixedUpdate()
 {
