@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 5456369193400861966}
   - component: {fileID: 1525224979700701996}
   - component: {fileID: 3602369881658712086}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: galhogrande2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
