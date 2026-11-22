@@ -12,6 +12,8 @@ public class Boar : MonoBehaviour
     public int damage;
     private Animator animator;
     private Vector3 originalScale;
+    public AudioSource idleAudio;
+    public AudioSource runningAudio;
 
     void Start()
     {
@@ -37,6 +39,22 @@ public class Boar : MonoBehaviour
         Flip();
 
         animator.SetBool("isRunning", following);
+        if (following)
+{
+    if (idleAudio.isPlaying)
+        idleAudio.Stop();
+
+    if (!runningAudio.isPlaying)
+        runningAudio.Play();
+}
+else
+{
+    if (runningAudio.isPlaying)
+        runningAudio.Stop();
+
+    if (!idleAudio.isPlaying)
+        idleAudio.Play();
+}
     }
 
     void Flip()

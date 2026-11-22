@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public Transform inclineCheckB;
     public Transform inclineCheckF;
-    
+
     [Header("Inclinação")]
     public float inclineSmooth = 8f;
     public float maxInclineAngle = 35f;
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource meowSource;
     public AudioSource footstepAudio;
+    private PlayerAudio playerAudio;
 
     private Animator animator;
 
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+        playerAudio = GetComponent<PlayerAudio>();
 
         visual = transform.Find("Visual");
 
@@ -69,61 +72,71 @@ public class PlayerController : MonoBehaviour
     {
         ManageState();
         staminaWheel.UpdateStamina(
-        state == PlayerEnum.Running && Input.GetAxis("Horizontal") != 0f
+            state == PlayerEnum.Running && Input.GetAxis("Horizontal") != 0f
         );
         CheckIncline();
 
         bool isMovingOnTree =
-    state == PlayerEnum.Climbing &&
-    (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.01f ||
-     Mathf.Abs(Input.GetAxis("Vertical")) > 0.01f);
-     
+            state == PlayerEnum.Climbing &&
+            (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.01f ||
+             Mathf.Abs(Input.GetAxis("Vertical")) > 0.01f);
+
         // Detecta se a onça está no chão
-canJump = Physics2D.Raycast(
-    groundCheck.position,
-    Vector2.down,
-    rayLength,
-    groundLayer
-);
+        canJump = Physics2D.Raycast(
+            groundCheck.position,
+            Vector2.down,
+            rayLength,
+            groundLayer
+        );
 
+        float verticalSpeed = theRB.linearVelocity.y;
 
-    float verticalSpeed = theRB.linearVelocity.y;
+        bool canUseJumpAnimation = state != PlayerEnum.Climbing && state != PlayerEnum.Carrying;
 
-    bool canUseJumpAnimation = state != PlayerEnum.Climbing && state != PlayerEnum.Carrying;
+        // Animações de movimento aéreo
+        bool isJumping = !canJump && verticalSpeed > 0.01f;
+        bool isFalling = !canJump && verticalSpeed < -0.01f;
 
-    // Animações de movimento aéreo
-    bool isJumping = !canJump && verticalSpeed > 0.01f;
-    bool isFalling = !canJump && verticalSpeed < -0.01f;
+        animator.SetBool("isJumping", canUseJumpAnimation && isJumping);
+        animator.SetBool("isFalling", canUseJumpAnimation && isFalling);
 
-    animator.SetBool("isJumping", canUseJumpAnimation && isJumping);
-    animator.SetBool("isFalling", canUseJumpAnimation && isFalling);
+        // Animações normais
+        animator.SetBool("isRunning", canJump && Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
 
-    // Animações normais
-    animator.SetBool("isRunning", canJump && Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
+        animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
+        animator.SetBool("isClimbingMoving", isMovingOnTree);
+        animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
 
-    animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
-    animator.SetBool("isClimbingMoving", isMovingOnTree);
-    animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
-
-    animator.SetFloat("yVelocity", theRB.linearVelocity.y);
-    Debug.Log("Y Velocity: " + theRB.linearVelocity.y);
+        animator.SetFloat("yVelocity", theRB.linearVelocity.y);
+        Debug.Log("Y Velocity: " + theRB.linearVelocity.y);
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
 
         if (Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Climbing)
         {
-            theRB.linearVelocity = new Vector2(speeds[(int)state] * Input.GetAxis("Horizontal"), theRB.linearVelocity.y);
+            theRB.linearVelocity = new Vector2(
+                speeds[(int)state] * Input.GetAxis("Horizontal"),
+                theRB.linearVelocity.y
+            );
             footstepAudio.Play();
 
-            if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 || Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
-                transform.localScale = new Vector3 (transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 ||
+                Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
+                transform.localScale = new Vector3(
+                    transform.localScale.x * -1,
+                    transform.localScale.y,
+                    transform.localScale.z
+                );
         }
         else
             footstepAudio.Stop();
 
         if (state == PlayerEnum.Climbing)
-            theRB.linearVelocity = new Vector2(speeds[(int)state] * Input.GetAxis("Horizontal"), speeds[(int)state] * Input.GetAxis("Vertical"));
+            theRB.linearVelocity = new Vector2(
+                speeds[(int)state] * Input.GetAxis("Horizontal"),
+                speeds[(int)state] * Input.GetAxis("Vertical")
+            );
 
         if (Input.GetButtonDown("Jump"))
             Jump();
@@ -136,11 +149,14 @@ canJump = Physics2D.Raycast(
 
         if (Input.GetAxis("Vertical") != 0f && canClimb && state != PlayerEnum.Carrying)
             EnterClimbMode();
-        
-    // Detecta se a onça está no chão
-    canJump = Physics2D.Raycast(groundCheck.position, Vector2.down, rayLength, groundLayer);
 
-    
+        // Detecta se a onça está no chão
+        canJump = Physics2D.Raycast(
+            groundCheck.position,
+            Vector2.down,
+            rayLength,
+            groundLayer
+        );
 
         AttentionCaller();
     }
@@ -148,7 +164,7 @@ canJump = Physics2D.Raycast(
     void Jump()
     {
         if (!canJump || state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
-        return;
+            return;
 
         animator.SetTrigger("Jump");
 
@@ -158,106 +174,105 @@ canJump = Physics2D.Raycast(
     void CheckIncline()
     {
         if (state == PlayerEnum.Climbing)
-        return;
+            return;
 
-    // Detecta a superfície abaixo dos dois sensores.
-    RaycastHit2D hitB = Physics2D.Raycast(
-        inclineCheckB.position,
-        Vector2.down,
-        inclineRayLength,
-        groundLayer
-    );
+        // Detecta a superfície abaixo dos dois sensores.
+        RaycastHit2D hitB = Physics2D.Raycast(
+            inclineCheckB.position,
+            Vector2.down,
+            inclineRayLength,
+            groundLayer
+        );
 
-    RaycastHit2D hitF = Physics2D.Raycast(
-        inclineCheckF.position,
-        Vector2.down,
-        inclineRayLength,
-        groundLayer
-    );
+        RaycastHit2D hitF = Physics2D.Raycast(
+            inclineCheckF.position,
+            Vector2.down,
+            inclineRayLength,
+            groundLayer
+        );
 
-    float targetAngle = 0f;
+        float targetAngle = 0f;
 
-    // Só calcula a inclinação quando os dois sensores encontram o chão.
-    if (hitB.collider != null && hitF.collider != null)
-    {
-        // Organiza os pontos pela posição horizontal no mundo.
-        Vector2 leftPoint = hitB.point.x < hitF.point.x
-            ? hitB.point
-            : hitF.point;
-
-        Vector2 rightPoint = hitB.point.x < hitF.point.x
-            ? hitF.point
-            : hitB.point;
-
-        float deltaX = rightPoint.x - leftPoint.x;
-        float deltaY = rightPoint.y - leftPoint.y;
-
-        if (Mathf.Abs(deltaX) > 0.01f)
+        // Só calcula a inclinação quando os dois sensores encontram o chão.
+        if (hitB.collider != null && hitF.collider != null)
         {
-            targetAngle = Mathf.Atan2(
-                deltaY,
-                deltaX
-            ) * Mathf.Rad2Deg;
+            // Organiza os pontos pela posição horizontal no mundo.
+            Vector2 leftPoint = hitB.point.x < hitF.point.x
+                ? hitB.point
+                : hitF.point;
 
-            // Limita a inclinação máxima.
-            targetAngle = Mathf.Clamp(
-                targetAngle,
-                -maxInclineAngle,
-                maxInclineAngle
+            Vector2 rightPoint = hitB.point.x < hitF.point.x
+                ? hitF.point
+                : hitB.point;
+
+            float deltaX = rightPoint.x - leftPoint.x;
+            float deltaY = rightPoint.y - leftPoint.y;
+
+            if (Mathf.Abs(deltaX) > 0.01f)
+            {
+                targetAngle = Mathf.Atan2(
+                    deltaY,
+                    deltaX
+                ) * Mathf.Rad2Deg;
+
+                // Limita a inclinação máxima.
+                targetAngle = Mathf.Clamp(
+                    targetAngle,
+                    -maxInclineAngle,
+                    maxInclineAngle
+                );
+            }
+        }
+
+        // Aplica a inclinação somente no Visual.
+        float direction = Mathf.Sign(transform.lossyScale.x);
+
+        float localTargetAngle = targetAngle * direction;
+
+        float currentAngle = visual.localEulerAngles.z;
+
+        float newAngle = Mathf.MoveTowardsAngle(
+            currentAngle,
+            localTargetAngle,
+            180f * Time.deltaTime
+        );
+
+        visual.localRotation = Quaternion.Euler(
+            0f,
+            0f,
+            newAngle
+        );
+    }
+
+    void OnDrawGizmos()
+    {
+        if (inclineCheckB != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(
+                inclineCheckB.position,
+                inclineCheckB.position + Vector3.down * inclineRayLength
+            );
+        }
+
+        if (inclineCheckF != null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(
+                inclineCheckF.position,
+                inclineCheckF.position + Vector3.down * inclineRayLength
+            );
+        }
+
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawLine(
+                groundCheck.position,
+                groundCheck.position + Vector3.down * rayLength
             );
         }
     }
-
-    // Aplica a inclinação somente no Visual.
-    float direction = Mathf.Sign(transform.lossyScale.x);
-
-    float localTargetAngle = targetAngle * direction;
-
-    float currentAngle = visual.localEulerAngles.z;
-
-    float newAngle = Mathf.MoveTowardsAngle(
-        currentAngle,
-        localTargetAngle,
-        180f * Time.deltaTime
-    );
-
-    visual.localRotation = Quaternion.Euler(
-        0f,
-        0f,
-        newAngle
-    );
-}
-
-    void OnDrawGizmos()
-{
-    if (inclineCheckB != null)
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(
-            inclineCheckB.position,
-            inclineCheckB.position + Vector3.down * inclineRayLength
-        );
-    }
-
-    if (inclineCheckF != null)
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(
-            inclineCheckF.position,
-            inclineCheckF.position + Vector3.down * inclineRayLength
-        );
-    }
-
-    if (groundCheck != null)
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(
-            groundCheck.position,
-            groundCheck.position + Vector3.down * rayLength
-        );
-    }
-}
-
 
     void EnterClimbMode()
     {
@@ -266,6 +281,8 @@ canJump = Physics2D.Raycast(
 
         theRB.gravityScale = 0;
         state = PlayerEnum.Climbing;
+        if (playerAudio != null)
+        playerAudio.PlayClimbSound();
         UITips.Instance.ShowTip();
     }
 
@@ -299,6 +316,7 @@ canJump = Physics2D.Raycast(
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.angularVelocity = 0f;
         rig.bodyType = RigidbodyType2D.Kinematic;
+
         foreach (Transform child in nextToHold.transform)
         {
             Collider2D col = child.GetComponent<Collider2D>();
@@ -313,6 +331,7 @@ canJump = Physics2D.Raycast(
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.bodyType = RigidbodyType2D.Dynamic;
         carrying = false;
+
         foreach (Transform child in nextToHold.transform)
         {
             Collider2D col = child.GetComponent<Collider2D>();
@@ -323,7 +342,7 @@ canJump = Physics2D.Raycast(
     void ConsumeCarriedItem()
     {
         if (state != PlayerEnum.Carrying || nextToHold == null)
-        return;
+            return;
 
         CarryableItem item = nextToHold.GetComponent<CarryableItem>();
 
@@ -375,66 +394,56 @@ canJump = Physics2D.Raycast(
         }
     }
 
-    
-void ManageState()
-{
-    if (state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
-        return;
-
-    bool wantsToRun = Input.GetKey(KeyCode.LeftShift);
-
-    if (wantsToRun && staminaWheel.CanRun)
+    void ManageState()
     {
-        state = PlayerEnum.Running;
-        return;
+        if (state == PlayerEnum.Climbing || state == PlayerEnum.Carrying)
+            return;
+
+        bool wantsToRun = Input.GetKey(KeyCode.LeftShift);
+
+        if (wantsToRun && staminaWheel.CanRun)
+        {
+            state = PlayerEnum.Running;
+            return;
+        }
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            state = PlayerEnum.Crouching;
+            return;
+        }
+
+        state = PlayerEnum.Normal;
     }
-
-    if (Input.GetKey(KeyCode.LeftControl))
-    {
-        state = PlayerEnum.Crouching;
-        return;
-    }
-
-    state = PlayerEnum.Normal;
-}
-
 
     void AttentionCaller()
     {
         float attention = 0f;
 
-        //if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0 && theRB.linearVelocity.magnitude != 0)
-            //return;
-
         switch (state)
         {
             case PlayerEnum.Normal:
                 attention = 1;
-
                 AttentionBringing.Invoke(attention);
                 break;
 
             case PlayerEnum.Running:
                 attention = 6;
-
                 AttentionBringing.Invoke(attention);
                 break;
 
             case PlayerEnum.Crouching:
                 attention = 0.5f;
-
                 AttentionBringing.Invoke(attention);
                 break;
 
             case PlayerEnum.Climbing:
                 attention = 6;
-
                 AttentionBringing.Invoke(attention);
                 break;
 
             case PlayerEnum.Carrying:
                 attention = 4;
-
                 AttentionBringing.Invoke(attention);
                 break;
 

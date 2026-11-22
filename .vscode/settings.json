@@ -68,5 +68,5 @@
         "*.slnx": "*.csproj"
     },
     "TCC---PROJETO-DEMO.slnxdotnet.defaultSolution": "TCC---PROJETO-ALFA.slnx",
-    "dotnet.defaultSolution": "TCC---PROJETO-ALFA.slnx"
+    "dotnet.defaultSolution": "TCC---PROJETO-DEMO.slnx"
 }
