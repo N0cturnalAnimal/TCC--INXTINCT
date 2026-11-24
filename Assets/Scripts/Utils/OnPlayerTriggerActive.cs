@@ -6,6 +6,7 @@ public class OnPlayerTriggerActive : MonoBehaviour
     public GameObject Active;
     public string tagToCompare;
     public FinishPoint finishPoint;
+    public ChaseMusicController musicController;
 
     private bool activated = false;
 
@@ -16,15 +17,20 @@ public class OnPlayerTriggerActive : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(tagToCompare))
-        {
-            Active.SetActive(true);
-            activated = true;
+        if (activated || !other.CompareTag(tagToCompare))
+            return;
 
-            if (finishPoint != null)
-            {
-                finishPoint.EnableFinish();
-            }
+        Active.SetActive(true);
+        activated = true;
+
+        if (finishPoint != null)
+        {
+            finishPoint.EnableFinish();
+        }
+
+        if (musicController != null)
+        {
+            musicController.StartChase();
         }
     }
 }

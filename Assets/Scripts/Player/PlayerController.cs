@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections;
 using UnityEngine;
@@ -30,7 +29,6 @@ public class PlayerController : MonoBehaviour
     public Action<float> AttentionBringing;
 
     public AudioSource meowSource;
-    public AudioSource footstepAudio;
     private PlayerAudio playerAudio;
 
     private Animator animator;
@@ -51,7 +49,6 @@ public class PlayerController : MonoBehaviour
 
         if (visual == null)
         {
-            Debug.LogError("Visual não encontrado dentro do Player!");
             return;
         }
 
@@ -59,11 +56,9 @@ public class PlayerController : MonoBehaviour
 
         if (animator == null)
         {
-            Debug.LogError("Animator não encontrado dentro de Visual!");
             return;
         }
 
-        Debug.Log("Animator encontrado em: " + animator.gameObject.name);
 
         carrying = false;
     }
@@ -103,12 +98,15 @@ public class PlayerController : MonoBehaviour
         // Animações normais
         animator.SetBool("isRunning", canJump && Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
 
+        animator.SetBool("isCarrying", state == PlayerEnum.Carrying);
+        animator.SetBool("isMoving", Mathf.Abs(theRB.linearVelocity.x) > 0.1f);
+
         animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
         animator.SetBool("isClimbingMoving", isMovingOnTree);
         animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
+        animator.SetBool("isMoving", canJump && Mathf.Abs(theRB.linearVelocity.x) > 0.1f);
 
         animator.SetFloat("yVelocity", theRB.linearVelocity.y);
-        Debug.Log("Y Velocity: " + theRB.linearVelocity.y);
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
@@ -119,7 +117,7 @@ public class PlayerController : MonoBehaviour
                 speeds[(int)state] * Input.GetAxis("Horizontal"),
                 theRB.linearVelocity.y
             );
-            footstepAudio.Play();
+            
 
             if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 ||
                 Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
@@ -129,8 +127,7 @@ public class PlayerController : MonoBehaviour
                     transform.localScale.z
                 );
         }
-        else
-            footstepAudio.Stop();
+        
 
         if (state == PlayerEnum.Climbing)
             theRB.linearVelocity = new Vector2(
@@ -281,8 +278,6 @@ public class PlayerController : MonoBehaviour
 
         theRB.gravityScale = 0;
         state = PlayerEnum.Climbing;
-        if (playerAudio != null)
-        playerAudio.PlayClimbSound();
         UITips.Instance.ShowTip();
     }
 
@@ -310,6 +305,8 @@ public class PlayerController : MonoBehaviour
 
         carrying = true;
         state = PlayerEnum.Carrying;
+        if (playerAudio != null)
+        playerAudio.PlayCarrySound();
         nextToHold.transform.position = holdPoint.position;
         nextToHold.transform.SetParent(holdPoint, true);
         UITips.Instance.ShowTip();

@@ -1,9 +1,9 @@
-
 using UnityEngine;
 
 public class FinishPoint : MonoBehaviour
 {
     public bool startEnabled = false;
+    public ChaseMusicController musicController;
 
     private bool canFinish = false;
     private bool finished = false;
@@ -26,6 +26,12 @@ public class FinishPoint : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             finished = true;
+
+            if (musicController != null)
+            {
+                musicController.StopChase();
+            }
+
             SceneController.instance.NextLevel();
         }
     }

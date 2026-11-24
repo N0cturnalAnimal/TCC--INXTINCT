@@ -1,27 +1,28 @@
-
 using UnityEngine;
 
 public class PlayerAudio : MonoBehaviour
 {
     public AudioSource footstepAudio;
-    public AudioSource climbAudio;
+    public AudioSource carryAudio;
 
     private PlayerController player;
-    private Rigidbody2D rb;
 
     void Start()
     {
         player = GetComponent<PlayerController>();
-        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         bool isWalking =
+            player != null &&
+            player.canJump &&
             player.state != PlayerEnum.Climbing &&
             player.state != PlayerEnum.Carrying &&
-            player.canJump &&
-            Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+            Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.01f;
+
+        if (footstepAudio == null)
+            return;
 
         if (isWalking)
         {
@@ -35,9 +36,9 @@ public class PlayerAudio : MonoBehaviour
         }
     }
 
-    public void PlayClimbSound()
+    public void PlayCarrySound()
     {
-        if (climbAudio != null)
-            climbAudio.Play();
+        if (carryAudio != null)
+            carryAudio.Play();
     }
 }

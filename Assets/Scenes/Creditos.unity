@@ -280,16 +280,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "FIM DA DEMO\n\nProduzido por\nGustavo Sanches Pinto........................RM
-    23105014\nJulia Aguiar Dalle Molle de Sousa.........RM 22204298\nLiam Campos
-    Vidal Exel.......................RM 23104912\n\nDIRE\xC7\xC3O DE ARTE\nJulia
-    Aguiar Dalle Molle de Sousa\n\nROTEIRO E DESIGN NARRATIVO\nJulia Aguiar Dalle
-    Molle de Sousa\n\nDESIGN DE UI\nGustavo Sanches Pinto\n\nCONCEPT ART\nJulia Aguiar
-    Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nARTISTAS 2D\nJulia Aguiar Dalle
-    Molle de Sousa\nLiam Campos Vidal Exel\n\nGAME DESIGN\nJulia Aguiar Dalle Molle
-    de Sousa\nLiam Campos Vidal Exel\nGustavo Sanches Pinto\n\nSONS E M\xDASICA\nJulia
-    Aguiar Dalle Molle de Sousa\n\nLEVEL DESIGN\nLiam Campos Vidal Exel\n\nPROGRAMA\xC7\xC3O\nJulia
-    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel"
+  m_text: "Cr\xE9ditos\n\nProduzido por\nGustavo Sanches Pinto........................RM
+    23105014\nJ. Aguiar Dalle Molle de Sousa.........RM 22204298\nLiam Campos Vidal
+    Exel.......................RM 23104912\n\nDIRE\xC7\xC3O DE ARTE\nConcept Art\nJ.
+    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nCria\xE7\xE3o de cen\xE1rios
+    e assets\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nCharacter
+    design & concepts\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nAnima\xE7\xE3o
+    2D\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nIlumina\xE7\xE3o
+    e VFX\nLiam Campos Vidal Exel\n\nCutscenes\nJ. Aguiar Dalle Molle de Sousa\n\nStoryboard\nJ.
+    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nProdu\xE7\xE3o da narrativa\nJ.
+    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nDIRE\xC7\xC3O DE SOM E
+    SOUND DESIGN\nTodos os efeitos sonoros presentes neste jogo s\xE3o de origem
+    royalty free de bancos de som sem direitos autorais. \nBibliotecas utilizadas:
+    Bandlab, Pixabay, Spectrasonics, Zero-G e Big Fish Audio.\n\nEfeitos sonoros
+    e Mixagem de som\nJ. Aguiar Dalle Molle de Sousa\n\nTrilha sonora e m\xFAsica\nJ.
+    Aguiar Dalle Molle de Sousa\n\nPROGRAMA\xC7\xC3O\nPrograma\xE7\xE3o e implementa\xE7\xE3o
+    de mec\xE2nicas e assets\nLiam Campos Vidal Exel\n\nCorre\xE7\xE3o de Bugs e
+    Controle de Qualidade\nLiam Campos Vidal Exel\n\nOrientador e consultor de programa\xE7\xE3o\nCaique
+    Costa Ferreira\n\nINTERFACE E UI\nGustavo Sanches Pinto\n\nPLANEJAMENTO DE MARKETING\nGustavo
+    Sanches Pinto\n\nORIENTADOR DO TCC\nRoberto Kazuo Yokota"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -355,7 +364,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -760.5486, y: 0, z: -765.349, w: -581.45276}
+  m_margin: {x: -760.5486, y: 0, z: -765.349, w: -2642.2837}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -14,6 +14,7 @@ public class Opossum : MonoBehaviour
 
     private SpriteRenderer sprite;
     private Animator animator;
+    public AudioSource flyingAudio;
 
     public float speed = 2;
     public bool moveOnce;
@@ -85,11 +86,22 @@ public class Opossum : MonoBehaviour
     }
 
     void SetFlying(bool value)
-    {
-        if (flying == value)
-            return;
+{
+    if (flying == value)
+        return;
 
-        flying = value;
-        animator.SetBool("isFlying", flying);
+    flying = value;
+    animator.SetBool("isFlying", flying);
+
+    if (flying)
+    {
+        if (flyingAudio != null && !flyingAudio.isPlaying)
+            flyingAudio.Play();
     }
+    else
+    {
+        if (flyingAudio != null && flyingAudio.isPlaying)
+            flyingAudio.Stop();
+    }
+}
 }

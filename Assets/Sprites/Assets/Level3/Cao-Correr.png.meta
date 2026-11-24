@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: b25d7ecf0dfb12a49bff87c198beebed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7700223035455259220
+    second: Cao-Correr_0
+  - first:
+      213: 6582715477430466035
+    second: Cao-Correr_1
+  - first:
+      213: 1264021855590721764
+    second: Cao-Correr_2
+  - first:
+      213: 9116838479318625983
+    second: Cao-Correr_3
+  - first:
+      213: 3174068403552502488
+    second: Cao-Correr_4
+  - first:
+      213: 7785671723730515999
+    second: Cao-Correr_5
+  - first:
+      213: 504078578973778817
+    second: Cao-Correr_6
+  - first:
+      213: 7922257377514627089
+    second: Cao-Correr_7
+  - first:
+      213: 5485976034836073416
+    second: Cao-Correr_8
+  - first:
+      213: 5823310456142143045
+    second: Cao-Correr_9
+  - first:
+      213: 1616569331796005454
+    second: Cao-Correr_10
+  - first:
+      213: -1807093526040392230
+    second: Cao-Correr_11
+  - first:
+      213: 2960934952139990749
+    second: Cao-Correr_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cao-Correr_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452479f9d00bcda60800000000000000
+      internalID: 7700223035455259220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_1
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1108
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f575b999d08a5b50800000000000000
+      internalID: 6582715477430466035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_2
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1108
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8a0da3e25ba8110800000000000000
+      internalID: 1264021855590721764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_3
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 1108
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe266a3b44858e70800000000000000
+      internalID: 9116838479318625983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2c986656e8c0c20800000000000000
+      internalID: 3174068403552502488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_5
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 554
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b2c6be234c0c60800000000000000
+      internalID: 7785671723730515999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_6
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 554
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183ad9efbc8def600800000000000000
+      internalID: 504078578973778817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_7
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 554
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1102af56c1381fd60800000000000000
+      internalID: 7922257377514627089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc5b2432a122c40800000000000000
+      internalID: 5485976034836073416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 0
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e9b23b10e80d050800000000000000
+      internalID: 5823310456142143045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cao-Correr_10
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 0
+        width: 1197
+        height: 554
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.6312919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42dd780e353f6610800000000000000
+      internalID: 1616569331796005454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6ebde5236081324a98dce0cc5f7f5b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1197.0,"y":554.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cao-Correr_0: 7700223035455259220
+      Cao-Correr_1: 6582715477430466035
+      Cao-Correr_10: 1616569331796005454
+      Cao-Correr_2: 1264021855590721764
+      Cao-Correr_3: 9116838479318625983
+      Cao-Correr_4: 3174068403552502488
+      Cao-Correr_5: 7785671723730515999
+      Cao-Correr_6: 504078578973778817
+      Cao-Correr_7: 7922257377514627089
+      Cao-Correr_8: 5485976034836073416
+      Cao-Correr_9: 5823310456142143045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

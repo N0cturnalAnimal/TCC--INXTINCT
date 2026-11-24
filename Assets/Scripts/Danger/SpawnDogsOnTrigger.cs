@@ -11,6 +11,7 @@ public class SpawnDogsOnTrigger : MonoBehaviour
 
     [Header("Referências")]
     public FinishPoint finishPoint;
+    public ChaseMusicController musicController;
 
     private bool activated = false;
     private List<GameObject> spawnedDogs = new List<GameObject>();
@@ -51,12 +52,26 @@ public class SpawnDogsOnTrigger : MonoBehaviour
                 spawnPoint.position,
                 spawnPoint.rotation
             );
+            
+            Boar boar = dog.GetComponent<Boar>();
+
+            if (boar != null)
+            boar.isTemplate = false;
 
             spawnedDogs.Add(dog);
+
+            if (boar != null)
+        {
+            boar.isTemplate = false;
+            boar.player = other.transform;
+        }
         }
 
         if (finishPoint != null)
             finishPoint.EnableFinish();
+
+        if (musicController != null)
+            musicController.StartChase();
 
         Debug.Log("Matilha criada: " + spawnedDogs.Count + " cachorros.");
     }
@@ -71,6 +86,9 @@ public class SpawnDogsOnTrigger : MonoBehaviour
 
         spawnedDogs.Clear();
         activated = false;
+
+        if (musicController != null)
+            musicController.StopChase();
 
         Debug.Log("Matilha reiniciada. DogTrigger liberado novamente.");
     }
