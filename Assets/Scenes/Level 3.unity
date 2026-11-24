@@ -2211,9 +2211,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OnPlayerTriggerActive
   Active: {fileID: 1892666819}
+  CutsceneTractor: {fileID: 0}
   tagToCompare: Player
   finishPoint: {fileID: 1037808737}
   musicController: {fileID: 0}
+  cutscene: {fileID: 0}
 --- !u!61 &181161983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12413,6 +12415,61 @@ Transform:
   - {fileID: 238433692}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &847761509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847761510}
+  - component: {fileID: 847761511}
+  m_Layer: 3
+  m_Name: CutsceneOffset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847761510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847761509}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.709076, y: 19.282108, z: 0}
+  m_LocalScale: {x: 0.757338, y: 0.757338, z: 0.757338}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 927100731}
+  m_Father: {fileID: 1366938741}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &847761511
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847761509}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &849454599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13281,11 +13338,11 @@ Transform:
   m_GameObject: {fileID: 927100730}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.01, z: 0}
-  m_LocalScale: {x: 1.0038122, y: 1.0038122, z: 1.0038122}
+  m_LocalPosition: {x: -30.011797, y: -25.447166, z: 0}
+  m_LocalScale: {x: 1.325448, y: 1.325448, z: 1.325448}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1366938741}
+  m_Father: {fileID: 847761510}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &927100732
 Animator:
@@ -20250,7 +20307,7 @@ Transform:
   - {fileID: 1670298154}
   - {fileID: 26988300}
   - {fileID: 617488097}
-  - {fileID: 927100731}
+  - {fileID: 847761510}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1366938743
