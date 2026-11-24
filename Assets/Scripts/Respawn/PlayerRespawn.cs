@@ -19,12 +19,12 @@ public class PlayerRespawn : MonoBehaviour
         oLife = life;
     }
 
-    public void Respawn()
+    public void Respawn(bool playDeathAudio = true)
     {
         if (isRespawning)
             return;
 
-        StartCoroutine(RespawnRoutine());
+        StartCoroutine(RespawnRoutine(playDeathAudio));
     }
 
     public void Damage(int d)
@@ -35,12 +35,12 @@ public class PlayerRespawn : MonoBehaviour
             Respawn();
     }
 
-    IEnumerator RespawnRoutine()
+    IEnumerator RespawnRoutine(bool playDeathAudio)
     {
         isRespawning = true;
 
-        if (deathAudio != null)
-            deathAudio.Play();
+        if (playDeathAudio && deathAudio != null)
+        deathAudio.Play();
 
         if (rb != null)
         {

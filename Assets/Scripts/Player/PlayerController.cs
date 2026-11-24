@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         theRB = GetComponent<Rigidbody2D>();
         playerAudio = GetComponent<PlayerAudio>();
 
-        visual = transform.Find("Visual");
+        visual = transform.Find("CutsceneOffset/Visual");
 
         if (visual == null)
         {

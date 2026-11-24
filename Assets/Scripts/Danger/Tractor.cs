@@ -57,15 +57,35 @@ void OnDisable()
     }
     
     void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
+        PlayerRespawn playerRespawn =
+            other.GetComponentInParent<PlayerRespawn>();
+
+        if (playerRespawn != null)
         {
-            other.transform.position = respawnPoint.position;
-            transform.position = originalPosition;
-            gameObject.SetActive(false);
-            deathAudio.Play();
+            playerRespawn.Respawn(false);
         }
+        else
+        {
+            Debug.LogError("PlayerRespawn não encontrado no jogador!");
+        }
+
+        transform.position = originalPosition;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+
+        gameObject.SetActive(false);
+
+        if (deathAudio != null)
+            deathAudio.Play();
     }
+}
 
     
 public void ResetForPlayerRespawn()
