@@ -279680,6 +279680,7 @@ MonoBehaviour:
   holdPoint: {fileID: 1432138974}
   meowSource: {fileID: 1670298155}
   staminaWheel: {fileID: 1210506999}
+  godModeSpeed: 23
 --- !u!61 &1366938745
 BoxCollider2D:
   m_ObjectHideFlags: 0

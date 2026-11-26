@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using UnityEngine;
@@ -35,6 +36,28 @@ public class PlayerController : MonoBehaviour
 
     public StaminaWheel staminaWheel;
 
+    [Header("Konami Cheat")]
+    public float godModeSpeed = 23f;
+
+    private bool godMode = false;
+    private float originalGravityScale;
+    private int konamiIndex = 0;
+
+    private readonly KeyCode[] konamiCode =
+    {
+        KeyCode.UpArrow,
+        KeyCode.UpArrow,
+        KeyCode.DownArrow,
+        KeyCode.DownArrow,
+        KeyCode.LeftArrow,
+        KeyCode.RightArrow,
+        KeyCode.LeftArrow,
+        KeyCode.RightArrow,
+        KeyCode.B,
+        KeyCode.A,
+        KeyCode.Return
+    };
+
     public void Meow()
     {
         meowSource.Play();
@@ -43,6 +66,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+        originalGravityScale = theRB.gravityScale;
+
         playerAudio = GetComponent<PlayerAudio>();
 
         visual = transform.Find("CutsceneOffset/Visual");
@@ -59,16 +84,25 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-
         carrying = false;
     }
 
     void Update()
     {
+        CheckKonamiCode();
+
+        if (godMode)
+        {
+            HandleGodMode();
+            return;
+        }
+
         ManageState();
+
         staminaWheel.UpdateStamina(
             state == PlayerEnum.Running && Input.GetAxis("Horizontal") != 0f
         );
+
         CheckIncline();
 
         bool isMovingOnTree =
@@ -84,9 +118,13 @@ public class PlayerController : MonoBehaviour
             groundLayer
         );
 
+        animator.SetBool("isGrounded", canJump);
+
         float verticalSpeed = theRB.linearVelocity.y;
 
-        bool canUseJumpAnimation = state != PlayerEnum.Climbing && state != PlayerEnum.Carrying;
+        bool canUseJumpAnimation =
+            state != PlayerEnum.Climbing &&
+            state != PlayerEnum.Carrying;
 
         // Animações de movimento aéreo
         bool isJumping = !canJump && verticalSpeed > 0.01f;
@@ -96,7 +134,12 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isFalling", canUseJumpAnimation && isFalling);
 
         // Animações normais
-        animator.SetBool("isRunning", canJump && Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Crouching && state != PlayerEnum.Climbing && state != PlayerEnum.Carrying);
+        animator.SetBool("isRunning",
+            canJump &&
+            Input.GetAxis("Horizontal") != 0f &&
+            state != PlayerEnum.Crouching &&
+            state != PlayerEnum.Climbing &&
+            state != PlayerEnum.Carrying);
 
         animator.SetBool("isCarrying", state == PlayerEnum.Carrying);
         animator.SetBool("isMoving", Mathf.Abs(theRB.linearVelocity.x) > 0.1f);
@@ -104,9 +147,22 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isClimbing", state == PlayerEnum.Climbing);
         animator.SetBool("isClimbingMoving", isMovingOnTree);
         animator.SetBool("isCrouching", state == PlayerEnum.Crouching);
-        animator.SetBool("isMoving", canJump && Mathf.Abs(theRB.linearVelocity.x) > 0.1f);
+        animator.SetBool("isMoving",
+            canJump && Mathf.Abs(theRB.linearVelocity.x) > 0.1f);
 
         animator.SetFloat("yVelocity", theRB.linearVelocity.y);
+
+        // Atualiza a última direção para o Blend Tree de Idle
+        float inputX = Input.GetAxisRaw("Horizontal");
+        float inputY = Input.GetAxisRaw("Vertical");
+
+        if (Mathf.Abs(inputX) > 0.01f || Mathf.Abs(inputY) > 0.01f)
+        {
+            Vector2 lastInput = new Vector2(inputX, inputY).normalized;
+
+            animator.SetFloat("LastInputX", lastInput.x);
+            animator.SetFloat("LastInputY", lastInput.y);
+        }
 
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
@@ -117,23 +173,25 @@ public class PlayerController : MonoBehaviour
                 speeds[(int)state] * Input.GetAxis("Horizontal"),
                 theRB.linearVelocity.y
             );
-            
 
             if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 ||
                 Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
+            {
                 transform.localScale = new Vector3(
                     transform.localScale.x * -1,
                     transform.localScale.y,
                     transform.localScale.z
                 );
+            }
         }
-        
 
         if (state == PlayerEnum.Climbing)
+        {
             theRB.linearVelocity = new Vector2(
                 speeds[(int)state] * Input.GetAxis("Horizontal"),
                 speeds[(int)state] * Input.GetAxis("Vertical")
             );
+        }
 
         if (Input.GetButtonDown("Jump"))
             Jump();
@@ -173,7 +231,6 @@ public class PlayerController : MonoBehaviour
         if (state == PlayerEnum.Climbing)
             return;
 
-        // Detecta a superfície abaixo dos dois sensores.
         RaycastHit2D hitB = Physics2D.Raycast(
             inclineCheckB.position,
             Vector2.down,
@@ -190,10 +247,8 @@ public class PlayerController : MonoBehaviour
 
         float targetAngle = 0f;
 
-        // Só calcula a inclinação quando os dois sensores encontram o chão.
         if (hitB.collider != null && hitF.collider != null)
         {
-            // Organiza os pontos pela posição horizontal no mundo.
             Vector2 leftPoint = hitB.point.x < hitF.point.x
                 ? hitB.point
                 : hitF.point;
@@ -212,7 +267,6 @@ public class PlayerController : MonoBehaviour
                     deltaX
                 ) * Mathf.Rad2Deg;
 
-                // Limita a inclinação máxima.
                 targetAngle = Mathf.Clamp(
                     targetAngle,
                     -maxInclineAngle,
@@ -221,11 +275,8 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Aplica a inclinação somente no Visual.
         float direction = Mathf.Sign(transform.lossyScale.x);
-
         float localTargetAngle = targetAngle * direction;
-
         float currentAngle = visual.localEulerAngles.z;
 
         float newAngle = Mathf.MoveTowardsAngle(
@@ -305,11 +356,15 @@ public class PlayerController : MonoBehaviour
 
         carrying = true;
         state = PlayerEnum.Carrying;
+
         if (playerAudio != null)
-        playerAudio.PlayCarrySound();
+            playerAudio.PlayCarrySound();
+
         nextToHold.transform.position = holdPoint.position;
         nextToHold.transform.SetParent(holdPoint, true);
+
         UITips.Instance.ShowTip();
+
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.angularVelocity = 0f;
         rig.bodyType = RigidbodyType2D.Kinematic;
@@ -324,9 +379,12 @@ public class PlayerController : MonoBehaviour
     void ExitCarryMode()
     {
         state = PlayerEnum.Normal;
+
         nextToHold.transform.SetParent(null, true);
+
         Rigidbody2D rig = nextToHold.GetComponent<Rigidbody2D>();
         rig.bodyType = RigidbodyType2D.Dynamic;
+
         carrying = false;
 
         foreach (Transform child in nextToHold.transform)
@@ -447,6 +505,77 @@ public class PlayerController : MonoBehaviour
             default:
                 AttentionBringing.Invoke(attention);
                 break;
+        }
+    }
+
+    // Detecta o código Konami
+    void CheckKonamiCode()
+    {
+        for (int i = 0; i < konamiCode.Length; i++)
+        {
+            if (Input.GetKeyDown(konamiCode[i]))
+            {
+                if (konamiCode[i] == konamiCode[konamiIndex])
+                {
+                    konamiIndex++;
+
+                    if (konamiIndex >= konamiCode.Length)
+                    {
+                        ToggleGodMode();
+                        konamiIndex = 0;
+                    }
+                }
+                else
+                {
+                    konamiIndex = 0;
+                }
+
+                return;
+            }
+        }
+    }
+
+    // Ativa ou desativa o modo de voo
+    void ToggleGodMode()
+    {
+        godMode = !godMode;
+
+        if (godMode)
+        {
+            theRB.gravityScale = 0;
+            theRB.linearVelocity = Vector2.zero;
+            state = PlayerEnum.Normal;
+
+            Debug.Log("KONAMI CODE: GOD MODE ATIVADO!");
+        }
+        else
+        {
+            theRB.gravityScale = originalGravityScale;
+            theRB.linearVelocity = Vector2.zero;
+
+            Debug.Log("GOD MODE DESATIVADO!");
+        }
+    }
+
+    // Controla o voo
+    void HandleGodMode()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        theRB.linearVelocity = new Vector2(
+            horizontal * godModeSpeed,
+            vertical * godModeSpeed
+        );
+
+        if (animator != null)
+        {
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isFalling", false);
+            animator.SetBool("isClimbing", false);
+            animator.SetBool("isClimbingMoving", false);
+            animator.SetBool("isRunning", false);
+            animator.SetBool("isMoving", false);
         }
     }
 }

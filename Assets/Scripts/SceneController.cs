@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -5,17 +6,16 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
-    
-    [Header("UI / Transição")]
-    [SerializeField] Animator transitionAnim;
 
     [Header("Áudio")]
     [Tooltip("Arraste aqui o AudioSource da música do Menu Principal")]
-    [SerializeField] AudioSource menuMusic; 
+    [SerializeField] AudioSource menuMusic;
+
+    private bool isLoading = false;
 
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -26,7 +26,6 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    // --- SISTEMA DE SEGURANÇA DE ÁUDIO ---
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -39,31 +38,43 @@ public class SceneController : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Se a cena que acabou de carregar NÃO for a Tela Inicial (MainMenu),
-        // nós forçamos a música do menu a parar.
-        // (Troque "MainMenu" pelo nome exato da sua cena inicial)
         if (scene.name != "MainMenu" && menuMusic != null)
         {
             menuMusic.Stop();
         }
     }
-    // -------------------------------------
 
     public void NextLevel()
     {
+        if (isLoading)
+            return;
+
         StartCoroutine(LoadLevel());
     }
 
     IEnumerator LoadLevel()
     {
-        if (transitionAnim != null)
-            transitionAnim.SetTrigger("End");
+        isLoading = true;
 
-        yield return new WaitForSeconds(1);
+        if (FadeManager.Instance != null)
+        {
+            yield return StartCoroutine(FadeManager.Instance.FadeOut());
+        }
+        else
+        {
+            Debug.LogError("FadeManager não encontrado!");
+            isLoading = false;
+            yield break;
+        }
 
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
 
-        if (transitionAnim != null)
-            transitionAnim.SetTrigger("Start");
+        AsyncOperation operation = SceneManager.LoadSceneAsync(nextScene);
+
+        yield return operation;
+
+        yield return StartCoroutine(FadeManager.Instance.FadeIn());
+
+        isLoading = false;
     }
 }

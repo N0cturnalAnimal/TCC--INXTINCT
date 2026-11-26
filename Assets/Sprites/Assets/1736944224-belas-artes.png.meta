@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: d770e0cbe0e80f94282f1ad16b071ed6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1672435325782673295
+    second: 1736944224-belas-artes_0
+  - first:
+      213: -2735689608990340229
+    second: 1736944224-belas-artes_1
+  - first:
+      213: -912801296776486980
+    second: 1736944224-belas-artes_2
+  - first:
+      213: -5296973483256929901
+    second: 1736944224-belas-artes_3
+  - first:
+      213: -4248514336869145222
+    second: 1736944224-belas-artes_4
+  - first:
+      213: -3414726122941560283
+    second: 1736944224-belas-artes_5
+  - first:
+      213: 943205021651736173
+    second: 1736944224-belas-artes_6
+  - first:
+      213: 8211377819025809703
+    second: 1736944224-belas-artes_7
+  - first:
+      213: 1070167618684266211
+    second: 1736944224-belas-artes_8
+  - first:
+      213: -7504821668069208948
+    second: 1736944224-belas-artes_9
+  - first:
+      213: 2152935387242716838
+    second: 1736944224-belas-artes_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 118
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87471f511fa53710800000000000000
+      internalID: 1672435325782673295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 119
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b47608bc0e80ad0800000000000000
+      internalID: -2735689608990340229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 119
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf1f1b8e041553f0800000000000000
+      internalID: -912801296776486980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 119
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391aec97eae5d76b0800000000000000
+      internalID: -5296973483256929901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 118
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75a2cf58be3a05c0800000000000000
+      internalID: -4248514336869145222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 222
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a42d4eea47c90d0800000000000000
+      internalID: -3414726122941560283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669ae948ffe61d00800000000000000
+      internalID: 943205021651736173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 22
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7212e83ee9ca4f170800000000000000
+      internalID: 8211377819025809703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 22
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e62dc977cff9de00800000000000000
+      internalID: 1070167618684266211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 22
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c8414847489d790800000000000000
+      internalID: -7504821668069208948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1736944224-belas-artes_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 21
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae58f4f353c0ed10800000000000000
+      internalID: 2152935387242716838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1736944224-belas-artes_0: 1672435325782673295
+      1736944224-belas-artes_1: -2735689608990340229
+      1736944224-belas-artes_10: 2152935387242716838
+      1736944224-belas-artes_2: -912801296776486980
+      1736944224-belas-artes_3: -5296973483256929901
+      1736944224-belas-artes_4: -4248514336869145222
+      1736944224-belas-artes_5: -3414726122941560283
+      1736944224-belas-artes_6: 943205021651736173
+      1736944224-belas-artes_7: 8211377819025809703
+      1736944224-belas-artes_8: 1070167618684266211
+      1736944224-belas-artes_9: -7504821668069208948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
