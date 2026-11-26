@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: NotificationTuto4
   m_EditorClassIdentifier: Assembly-CSharp::NotificationSO
   _message: 
-  _icon: {fileID: 21300000, guid: 6d0b834f12460184db6bdd5a72d4f790, type: 3}
+  _icon: {fileID: 21300000, guid: b1ce13598bc1fba439b1188167fda87b, type: 3}
   _displayDuration: 2
   _fadeDuration: 1
