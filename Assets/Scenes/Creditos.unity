@@ -281,24 +281,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Cr\xE9ditos\n\nProduzido por\nGustavo Sanches Pinto........................RM
-    23105014\nJ. Aguiar Dalle Molle de Sousa.........RM 22204298\nLiam Campos Vidal
-    Exel.......................RM 23104912\n\nDIRE\xC7\xC3O DE ARTE\nConcept Art\nJ.
-    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nCria\xE7\xE3o de cen\xE1rios
-    e assets\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nCharacter
-    design & concepts\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nAnima\xE7\xE3o
-    2D\nJ. Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nIlumina\xE7\xE3o
-    e VFX\nLiam Campos Vidal Exel\n\nCutscenes\nJ. Aguiar Dalle Molle de Sousa\n\nStoryboard\nJ.
-    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nProdu\xE7\xE3o da narrativa\nJ.
-    Aguiar Dalle Molle de Sousa\nLiam Campos Vidal Exel\n\nDIRE\xC7\xC3O DE SOM E
-    SOUND DESIGN\nTodos os efeitos sonoros presentes neste jogo s\xE3o de origem
-    royalty free de bancos de som sem direitos autorais. \nBibliotecas utilizadas:
-    Bandlab, Pixabay, Spectrasonics, Zero-G e Big Fish Audio.\n\nEfeitos sonoros
-    e Mixagem de som\nJ. Aguiar Dalle Molle de Sousa\n\nTrilha sonora e m\xFAsica\nJ.
-    Aguiar Dalle Molle de Sousa\n\nPROGRAMA\xC7\xC3O\nPrograma\xE7\xE3o e implementa\xE7\xE3o
-    de mec\xE2nicas e assets\nLiam Campos Vidal Exel\n\nCorre\xE7\xE3o de Bugs e
-    Controle de Qualidade\nLiam Campos Vidal Exel\n\nOrientador e consultor de programa\xE7\xE3o\nCaique
-    Costa Ferreira\n\nINTERFACE E UI\nGustavo Sanches Pinto\n\nPLANEJAMENTO DE MARKETING\nGustavo
-    Sanches Pinto\n\nORIENTADOR DO TCC\nRoberto Kazuo Yokota"
+    23105014\nJulia Aguiar Dalle Molle de Sousa.........RM 22204298\nLarissa Campos
+    Vidal Exel.......................RM 23104912\n\nDIRE\xC7\xC3O DE ARTE\nConcept
+    Art\nJulia Aguiar Dalle Molle de Sousa\nLarissa Campos Vidal Exel\n\nCria\xE7\xE3o
+    de cen\xE1rios e assets\nJulia Aguiar Dalle Molle de Sousa\nLarissa Campos Vidal
+    Exel\n\nCharacter design & concepts\nJulia Aguiar Dalle Molle de Sousa\nLarissa
+    Campos Vidal Exel\n\nAnima\xE7\xE3o 2D\nJulia Aguiar Dalle Molle de Sousa\nLarissa
+    Campos Vidal Exel\n\nIlumina\xE7\xE3o e VFX\nLarissa Campos Vidal Exel\n\nCutscenes\nJulia
+    Aguiar Dalle Molle de Sousa\n\nStoryboard\nJulia Aguiar Dalle Molle de Sousa\nLarissa
+    Campos Vidal Exel\n\nProdu\xE7\xE3o da narrativa\nJulia Aguiar Dalle Molle de
+    Sousa\nLarissa Campos Vidal Exel\n\nDIRE\xC7\xC3O DE SOM E SOUND DESIGN\nTodos
+    os efeitos sonoros presentes neste jogo s\xE3o de origem royalty free de bancos
+    de som sem direitos autorais. \nBibliotecas utilizadas: Bandlab, Pixabay, Spectrasonics,
+    Zero-G e Big Fish Audio.\n\nEfeitos sonoros e Mixagem de som\nJulia Aguiar Dalle
+    Molle de Sousa\n\nTrilha sonora e m\xFAsica\nJulia Aguiar Dalle Molle de Sousa\n\nPROGRAMA\xC7\xC3O\nPrograma\xE7\xE3o
+    e implementa\xE7\xE3o de mec\xE2nicas e assets\nLarissa Campos Vidal Exel\n\nCorre\xE7\xE3o
+    de Bugs e Controle de Qualidade\nLarissa Campos Vidal Exel\n\nOrientador e consultor
+    de programa\xE7\xE3o\nCaique Costa Ferreira\n\nINTERFACE E UI\nGustavo Sanches
+    Pinto\n\nPLANEJAMENTO DE MARKETING\nGustavo Sanches Pinto\n\nORIENTADOR DO TCC\nRoberto
+    Kazuo Yokota"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
