@@ -10,6 +10,9 @@ public class FallingTree : MonoBehaviour
     public float distanceToReturn;
     public float speed = 2;
 
+    [Header("Som da árvore")]
+    public AudioSource fallingSound;
+
     private bool falling;
     private Quaternion FallRot;
 
@@ -18,7 +21,6 @@ public class FallingTree : MonoBehaviour
         falling = false;
         OriginalRot = transform.rotation;
 
-        // Inverte o sentido da queda
         FallRot = Quaternion.Euler(
             OriginalRot.eulerAngles + new Vector3(
                 NextRot.x,
@@ -33,8 +35,14 @@ public class FallingTree : MonoBehaviour
         if (tractor == null)
             return;
 
-        if (Vector3.Distance(transform.position, tractor.position) < distanceToMove)
+        if (Vector3.Distance(transform.position, tractor.position) < distanceToMove
+            && !falling)
+        {
             falling = true;
+
+            if (fallingSound != null)
+                fallingSound.Play();
+        }
 
         if (falling)
         {

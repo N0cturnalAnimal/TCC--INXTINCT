@@ -5,17 +5,26 @@ using System.Collections;
 public class PlayerRespawn : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private Animator animator;
     private bool isRespawning = false;
 
     public static System.Action OnPlayerRespawned;
 
     public int life;
     private int oLife;
+
+    [Header("Sons")]
     public AudioSource deathAudio;
+    public AudioSource damageAudio;
+
+    [Header("Animação de dano")]
+    public string damageAnimationTrigger = "Damage";
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
+
         oLife = life;
     }
 
@@ -29,7 +38,16 @@ public class PlayerRespawn : MonoBehaviour
 
     public void Damage(int d)
     {
+        if (isRespawning)
+            return;
+
         life -= d;
+
+        if (animator != null)
+            animator.SetTrigger(damageAnimationTrigger);
+
+        if (damageAudio != null)
+            damageAudio.Play();
 
         if (life <= 0)
             Respawn();
@@ -40,7 +58,7 @@ public class PlayerRespawn : MonoBehaviour
         isRespawning = true;
 
         if (playDeathAudio && deathAudio != null)
-        deathAudio.Play();
+            deathAudio.Play();
 
         if (rb != null)
         {

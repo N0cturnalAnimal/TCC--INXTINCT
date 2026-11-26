@@ -894,7 +894,7 @@ Transform:
   m_GameObject: {fileID: 137366853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 878.5, y: 3.2, z: 0}
+  m_LocalPosition: {x: 663.7, y: 3.2, z: 0}
   m_LocalScale: {x: 0.59460557, y: 0.59460557, z: 0.59460557}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3176,6 +3176,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &414764804
 GameObject:
   m_ObjectHideFlags: 0
@@ -14145,6 +14146,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &690622275
 GameObject:
   m_ObjectHideFlags: 0
@@ -14317,6 +14319,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1001 &734831279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14441,6 +14444,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1001 &741930913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14900,7 +14904,7 @@ Transform:
   m_GameObject: {fileID: 770118255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 874.19464, y: 4.775097, z: 0}
+  m_LocalPosition: {x: 659.39465, y: 4.775097, z: 0}
   m_LocalScale: {x: 0.4952935, y: 0.4952935, z: 0.4952935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19875,7 +19879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3141666661958865984, guid: 2f32e3ca6563530479f1fb63f6c4cc96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 857
+      value: 642.2
       objectReference: {fileID: 0}
     - target: {fileID: 3141666661958865984, guid: 2f32e3ca6563530479f1fb63f6c4cc96, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25090,7 +25094,7 @@ Transform:
   m_GameObject: {fileID: 866570611}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 875.27466, y: 0.3534708, z: 0}
+  m_LocalPosition: {x: 660.4747, y: 0.3534708, z: 0}
   m_LocalScale: {x: 0.38484, y: 0.38484, z: 0.38484}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25177,6 +25181,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1001 &891389805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26077,6 +26082,7 @@ Transform:
   - {fileID: 856477663}
   - {fileID: 1348991545}
   - {fileID: 1246848770}
+  - {fileID: 1675303387}
   - {fileID: 1974360471}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26094,6 +26100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   life: 15
   deathAudio: {fileID: 312465244}
+  damageAudio: {fileID: 1675303388}
+  damageAnimationTrigger: Damage
 --- !u!70 &1004653380
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -26910,6 +26918,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &1125150733
 GameObject:
   m_ObjectHideFlags: 0
@@ -288203,6 +288212,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   startEnabled: 1
   musicController: {fileID: 0}
+  playEndingVideo: 0
+  endingVideo: {fileID: 0}
+  videoScreen: {fileID: 0}
+  creditsSceneName: Creditos
 --- !u!61 &1400410473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -288258,7 +288271,7 @@ Transform:
   m_GameObject: {fileID: 1400410471}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 872.3, y: 6.3, z: 0}
+  m_LocalPosition: {x: 658, y: 6.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -288553,6 +288566,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1001 &1438681142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -293700,6 +293714,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &1533485932
 GameObject:
   m_ObjectHideFlags: 0
@@ -294717,6 +294732,136 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
+--- !u!1 &1675303386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675303387}
+  - component: {fileID: 1675303388}
+  m_Layer: 3
+  m_Name: DamageAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675303387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675303386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.8639033, y: -1.1455616, z: 0}
+  m_LocalScale: {x: 0.9999891, y: 0.9999891, z: 0.9999891}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004653378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1675303388
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675303386}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 03ad87a48d9c55f4d8283b0f22dde305, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1680149907
 GameObject:
   m_ObjectHideFlags: 0
@@ -295202,6 +295347,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &1697577050
 GameObject:
   m_ObjectHideFlags: 0
@@ -300295,6 +300441,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1001 &1737025457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -300672,8 +300819,8 @@ Transform:
   m_GameObject: {fileID: 1832975237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 457.0765, y: -0.8329, z: 0}
-  m_LocalScale: {x: 2.3270779, y: 2.3270779, z: 2.3270779}
+  m_LocalPosition: {x: 457.0765, y: 1.5974, z: 0}
+  m_LocalScale: {x: 2.3270779, y: 2.7773037, z: 2.3270779}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1627391999}
@@ -301796,6 +301943,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &1879914699
 GameObject:
   m_ObjectHideFlags: 0
@@ -302150,6 +302298,7 @@ MonoBehaviour:
   distanceToMove: 5
   distanceToReturn: 35
   speed: 3
+  fallingSound: {fileID: 0}
 --- !u!1 &1945844827
 GameObject:
   m_ObjectHideFlags: 0
