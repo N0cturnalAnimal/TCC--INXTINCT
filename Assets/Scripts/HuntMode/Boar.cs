@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Boar : MonoBehaviour
@@ -27,8 +28,8 @@ public class Boar : MonoBehaviour
     void Update()
     {
         if (isTemplate)
-        return;
-        
+            return;
+
         if (Vector3.Distance(transform.position, player.position) >= distanceToReturn)
         {
             transform.position = Vector3.MoveTowards(transform.position, OriginalPos, speed * Time.deltaTime);
@@ -40,54 +41,58 @@ public class Boar : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             following = true;
         }
+
         Flip();
 
         animator.SetBool("isRunning", following);
+
         if (following)
-{
-    if (idleAudio != null && idleAudio.isPlaying)
-        idleAudio.Stop();
+        {
+            if (idleAudio != null && idleAudio.isPlaying)
+                idleAudio.Stop();
 
-    if (runningAudio != null && !runningAudio.isPlaying)
-        runningAudio.Play();
-}
-else
-{
-    if (runningAudio != null && runningAudio.isPlaying)
-        runningAudio.Stop();
+            if (runningAudio != null && !runningAudio.isPlaying)
+                runningAudio.Play();
+        }
+        else
+        {
+            if (runningAudio != null && runningAudio.isPlaying)
+                runningAudio.Stop();
 
-    if (idleAudio != null && !idleAudio.isPlaying)
-        idleAudio.Play();
-}
+            if (idleAudio != null && !idleAudio.isPlaying)
+                idleAudio.Play();
+        }
     }
 
     void Flip()
-{
-    if (player == null)
-        return;
-
-    float direction = player.position.x - transform.position.x;
-
-    if (direction > 0.01f)
-        transform.localScale = new Vector3(
-            Mathf.Abs(originalScale.x),
-            originalScale.y,
-            originalScale.z
-        );
-
-    else if (direction < -0.01f)
-        transform.localScale = new Vector3(
-            -Mathf.Abs(originalScale.x),
-            originalScale.y,
-            originalScale.z
-        );
-}
-    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerRespawn p = other.gameObject.GetComponent<PlayerRespawn>();
-            p.Damage(damage);
-        }
+        if (player == null)
+            return;
+
+        float direction = player.position.x - transform.position.x;
+
+        if (direction > 0.01f)
+            transform.localScale = new Vector3(
+                Mathf.Abs(originalScale.x),
+                originalScale.y,
+                originalScale.z
+            );
+
+        else if (direction < -0.01f)
+            transform.localScale = new Vector3(
+                -Mathf.Abs(originalScale.x),
+                originalScale.y,
+                originalScale.z
+            );
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+{
+    PlayerRespawn p = other.GetComponentInParent<PlayerRespawn>();
+
+    if (p != null)
+    {
+        p.Damage(damage);
+    }
+}
 }

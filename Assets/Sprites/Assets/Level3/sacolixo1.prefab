@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 238885918164332983}
   - component: {fileID: 989304701898996507}
   - component: {fileID: 400135829213184741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Holdable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 749593479946564666}
   - component: {fileID: 8927861284497723133}
   - component: {fileID: 3313781152338622721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sacolixo1
   m_TagString: Carriable
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 4623758538209102018}
   - component: {fileID: 5629209504471999228}
   - component: {fileID: 2876835693598210805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tip Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
