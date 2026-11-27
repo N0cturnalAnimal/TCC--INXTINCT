@@ -80,6 +80,7 @@ if (cutsceneOffset != null)
 
         activated = true;
         isPlayingCutscene = true;
+        Checkpoint.checkpointsLocked = true;
 
         if (CutsceneTractor != null)
             CutsceneTractor.SetActive(true);
@@ -134,6 +135,8 @@ if (cutsceneOffset != null)
 
     void ResetSequence()
     {
+        Checkpoint.checkpointsLocked = false;
+        
         if (musicController != null)
         {
             musicController.StopChase();

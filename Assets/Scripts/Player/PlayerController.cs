@@ -167,20 +167,27 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
             Meow();
 
-        if (Input.GetAxis("Horizontal") != 0f && state != PlayerEnum.Climbing)
-        {
-            theRB.linearVelocity = new Vector2(
-                speeds[(int)state] * Input.GetAxis("Horizontal"),
-                theRB.linearVelocity.y
-            );
+        float horizontalInput = Input.GetAxis("Horizontal");
 
-            if (Input.GetAxis("Horizontal") < 0 && transform.localScale.x > 0 ||
-                Input.GetAxis("Horizontal") > 0 && transform.localScale.x < 0)
+        if (Mathf.Abs(horizontalInput) > 0.01f)
+        {
+            // Vira a onça conforme a direção pressionada
+            if (horizontalInput < 0 && transform.localScale.x > 0 ||
+                horizontalInput > 0 && transform.localScale.x < 0)
             {
                 transform.localScale = new Vector3(
                     transform.localScale.x * -1,
                     transform.localScale.y,
                     transform.localScale.z
+                );
+            }
+
+            // Movimentação horizontal normal (exceto durante escalada)
+            if (state != PlayerEnum.Climbing)
+            {
+                theRB.linearVelocity = new Vector2(
+                    speeds[(int)state] * horizontalInput,
+                    theRB.linearVelocity.y
                 );
             }
         }

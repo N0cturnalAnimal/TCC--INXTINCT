@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-   private void OnTriggerEnter2D(Collider2D other)
+    public static bool checkpointsLocked = false;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (checkpointsLocked)
+            return;
+
+        if (other.CompareTag("Player"))
         {
             RespawnManager.Instance.SetCheckpoint(transform);
         }
